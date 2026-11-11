@@ -1,0 +1,43 @@
+name: Merge approved briefing and publish
+
+on:
+  pull_request_review:
+    types: [submitted]
+
+permissions:
+  contents: write
+  pull-requests: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: approved-daily-briefing
+  cancel-in-progress: false
+
+jobs:
+  merge-and-publish:
+    if: >-
+      github.event.review.state == 'approved' &&
+      github.event.pull_request.base.ref == 'main' &&
+      github.event.pull_request.head.ref == 'automation/daily-security-briefing'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Merge the reviewed edition
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: gh pr merge "$PR_NUMBER" --squash --delete-branch
+      - name: Check out the updated main branch
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload the approved website
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+      - name: Publish the approved edition
+        id: deployment
+        uses: actions/deploy-pages@v4

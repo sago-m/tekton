@@ -1,0 +1,43 @@
+name: Prepare daily security briefing
+
+on:
+  schedule:
+    - cron: "15 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: daily-news-update
+  cancel-in-progress: false
+
+jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Fetch and sort RSS stories
+        run: python scripts/fetch_news.py
+      - name: Open or refresh the review pull request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: automation/daily-security-briefing
+          base: main
+          delete-branch: true
+          add-paths: news.json
+          commit-message: "content: refresh daily security briefing"
+          title: "Daily security briefing"
+          body: |
+            Automated daily refresh of the Signal security, vulnerability, and AI news feed.
+
+            Please review the story links and descriptions before merging. This pull request does not publish until it is approved and merged into `main`.
