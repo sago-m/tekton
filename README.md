@@ -8,7 +8,7 @@ At 06:15 UTC, `.github/workflows/daily-news.yml` collects items published that U
 
 The workflows use GitHub Actions' `GITHUB_TOKEN`. In repository settings, allow GitHub Actions to create pull requests and configure a ruleset or branch protection for `main` that requires at least one approval. The merge waits for GitHub's required branch rules. The approved-review workflow publishes the site directly because GitHub does not start a Pages workflow for a push made with `GITHUB_TOKEN`.
 
-Every GitHub Action is pinned to a full commit SHA to comply with the repository's action policy.
+Every GitHub Action is pinned to a full commit SHA to comply with the repository's action policy. The Pages workflows package the deployment archive directly and upload it with the SHA-pinned `actions/upload-artifact` action, avoiding an unpinned nested action.
 
 ## Publish the site
 
