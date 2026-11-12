@@ -1,4 +1,4 @@
-name: Publish Signal website
+name: Publish Teklon website
 
 on:
   push:
