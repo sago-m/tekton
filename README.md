@@ -1,6 +1,6 @@
-# Signal
+# Teklon
 
-Signal is a static daily security news briefing. The front end reads `news.json`; GitHub Actions refreshes that file from public RSS sources, opens a pull request for review, and publishes merged changes from `main` to GitHub Pages.
+Teklon is a static daily security news briefing. The front end reads `news.json`; GitHub Actions refreshes that file from public RSS sources, opens a pull request for review, and publishes merged changes from `main` to GitHub Pages.
 
 ## Daily review flow
 
@@ -10,7 +10,7 @@ The workflows use GitHub Actions' `GITHUB_TOKEN`. In repository settings, allow 
 
 ## Publish the site
 
-In **Settings → Pages**, choose **GitHub Actions** as the build and deployment source. The `Publish Signal website` workflow deploys ordinary pushes to `main`; approved automated briefing PRs are published by the merge-and-publish workflow. After the first merge, run **Prepare daily security briefing** once from the Actions tab to populate the first edition. GitHub Pages provides the public URL; a custom domain can be added in the same settings page.
+In **Settings → Pages**, choose **GitHub Actions** as the build and deployment source. The `Publish Teklon website` workflow deploys ordinary pushes to `main`; approved automated briefing PRs are published by the merge-and-publish workflow. After the first merge, run **Prepare daily security briefing** once from the Actions tab to populate the first edition. GitHub Pages provides the public URL; a custom domain can be added in the same settings page.
 
 ## Run the feed collector locally
 

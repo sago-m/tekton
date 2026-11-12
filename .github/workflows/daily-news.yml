@@ -38,6 +38,6 @@ jobs:
           commit-message: "content: refresh daily security briefing"
           title: "Daily security briefing"
           body: |
-            Automated daily refresh of the Signal security, vulnerability, and AI news feed.
+            Automated daily refresh of the Teklon security, vulnerability, and AI news feed.
 
             Please review the story links and descriptions before merging. This pull request does not publish until it is approved and merged into `main`.

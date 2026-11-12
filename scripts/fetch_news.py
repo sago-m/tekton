@@ -68,7 +68,7 @@ def item_text(item: ET.Element, names: tuple[str, ...]) -> str:
 
 
 def fetch_feed(name: str, category: str, url: str) -> list[dict]:
-    req = urllib.request.Request(url, headers={"User-Agent": "SignalNewsBot/1.0 (+daily public RSS collector)", "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml"})
+    req = urllib.request.Request(url, headers={"User-Agent": "TeklonNewsBot/1.0 (+daily public RSS collector)", "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml"})
     with urllib.request.urlopen(req, timeout=25) as response:
         root = ET.fromstring(response.read())
     results = []
