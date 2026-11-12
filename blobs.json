@@ -1,0 +1,109 @@
+{
+  "title": "My Blobs",
+  "items": [
+    {
+      "id": "ai-world",
+      "title": "How to survive in an AI world?",
+      "subtitle": "A friendly guide to using AI while keeping your own ideas and choices.",
+      "topic": "EVERYDAY AI",
+      "readingTime": "5 min read",
+      "image": "assets/blobs/ai-world.svg",
+      "imageAlt": "A person and a friendly glowing assistant sharing ideas at a table",
+      "intro": "AI can feel like a big change, but you do not need to be a computer expert to use it. Think of it as a helpful assistant: it can explain, suggest and organise, while you stay in charge.",
+      "points": [
+        {
+          "title": "Learn to live with AI",
+          "text": "Let AI help with small, everyday jobs. You can ask it to explain a confusing letter, plan a simple meal, or make a packing list.",
+          "example": "Try: “Help me make a shopping list for three easy dinners.”"
+        },
+        {
+          "title": "Learn to think with AI",
+          "text": "Use it to explore ideas, ask questions and see different options. Tell it what matters to you, then decide which suggestions fit.",
+          "example": "Try: “Give me three low-cost ideas for a day out with my family.”"
+        },
+        {
+          "title": "Learn to keep your own judgement",
+          "text": "AI can sound sure even when it is mistaken. Treat its answer as a starting point and check important details before acting.",
+          "example": "For a health, money or safety decision, check a trusted expert or official source too."
+        },
+        {
+          "title": "Start with one useful task",
+          "text": "You do not have to learn everything at once. Pick one task that takes you time and see whether AI can make it easier.",
+          "example": "Ask it to turn a long message into three short points."
+        },
+        {
+          "title": "Keep private details private",
+          "text": "Do not paste passwords, bank details or private information into a tool unless you understand how it will be used.",
+          "example": "You can remove names and account numbers before asking for help with a document."
+        }
+      ],
+      "takeaway": "Use AI to make everyday life a little easier. Stay curious, check what matters, and keep the final choice yours."
+    },
+    {
+      "id": "ai-thinking-partner",
+      "title": "Make AI your thinking partner",
+      "subtitle": "Get help with a blank page without handing over the steering wheel.",
+      "topic": "IDEAS & WORK",
+      "readingTime": "4 min read",
+      "image": "assets/blobs/ai-partner.svg",
+      "imageAlt": "A person sorting colourful idea cards with help from a friendly assistant",
+      "intro": "AI is most useful when you bring the goal and it helps you explore the next step. You do not need special words: describe what you are trying to do as if you were asking a helpful person.",
+      "points": [
+        {
+          "title": "Say what you are trying to do",
+          "text": "A little context helps the answer fit your real situation. Mention who it is for, what you need, and any limits such as time or cost.",
+          "example": "“I have 20 minutes and basic ingredients. Suggest a simple lunch for two.”"
+        },
+        {
+          "title": "Ask for a few choices",
+          "text": "Instead of accepting the first suggestion, ask for alternatives. Comparing choices makes it easier to notice what works for you.",
+          "example": "“Give me a simpler version and one that costs less.”"
+        },
+        {
+          "title": "Improve the answer together",
+          "text": "You can say what is missing and ask for another try. A conversation can be more useful than one perfect question.",
+          "example": "“That is helpful. Please make it warmer and keep it under 100 words.”"
+        },
+        {
+          "title": "Add your own experience",
+          "text": "AI does not know your people, your neighbourhood or your personal history unless you explain it. Your experience is part of the answer.",
+          "example": "Read a draft aloud and change anything that does not sound like you."
+        }
+      ],
+      "takeaway": "You set the destination. AI can help you find a few routes, and you choose the one that feels right."
+    },
+    {
+      "id": "check-ai-answer",
+      "title": "How to check an AI answer",
+      "subtitle": "A simple pause can help you spot an answer that needs a second look.",
+      "topic": "SMART & SAFE",
+      "readingTime": "4 min read",
+      "image": "assets/blobs/check-answer.svg",
+      "imageAlt": "A person using a magnifying glass to check a simple list of facts",
+      "intro": "AI tools can make mistakes, leave out important details, or use old information. A few quick checks can help you decide whether an answer is ready to use.",
+      "points": [
+        {
+          "title": "Notice when the answer really matters",
+          "text": "A dinner idea is low risk. Advice about medicine, money, legal matters or personal safety deserves more care.",
+          "example": "Use AI to prepare questions for a professional, not to replace their advice."
+        },
+        {
+          "title": "Look for a reliable source",
+          "text": "Ask where the information came from, then open the source yourself. A link is useful only if it really supports the claim.",
+          "example": "For a government service, check the official government website."
+        },
+        {
+          "title": "Check the date and details",
+          "text": "Rules, prices and news can change. Make sure the page is recent and that names, numbers and dates match.",
+          "example": "If an answer mentions a deadline, confirm it on the organisation’s own page."
+        },
+        {
+          "title": "Ask another trusted person",
+          "text": "If you are still unsure, ask someone knowledgeable. It is sensible to pause before sharing or acting on something important.",
+          "example": "For urgent health concerns, contact a qualified health professional."
+        }
+      ],
+      "takeaway": "Let AI help you get started, then verify important information before you rely on it."
+    }
+  ]
+}

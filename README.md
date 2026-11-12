@@ -2,6 +2,8 @@
 
 Teklon is a static daily security news briefing. The front end reads `news.json`; GitHub Actions refreshes that file from public RSS sources, opens a pull request for review, and publishes merged changes from `main` to GitHub Pages. When an RSS item provides an HTTPS image, Teklon shows it on the story card and in the story detail.
 
+The landing page also has a JSON-powered **My Blobs** carousel for approachable editorial guides. Edit `blobs.json` to add a blob, update its title, short description, image path, reading time, and numbered points. Illustration files live in `assets/blobs/`; each point can include an everyday example.
+
 ## Daily review flow
 
 At 06:15 UTC, `.github/workflows/daily-news.yml` collects items published that UTC day from CISA advisories, BleepingComputer, The Hacker News, OpenAI News, and Google AI. Recent earlier items are placed in the archive. The workflow creates or updates one pull request. When a maintainer approves that daily briefing, `.github/workflows/merge-approved-news.yml` merges it into `main` and publishes the resulting site in the same run.
