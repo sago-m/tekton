@@ -67,6 +67,49 @@ def item_text(item: ET.Element, names: tuple[str, ...]) -> str:
     return ""
 
 
+def safe_image_url(value: str) -> str:
+    value = html.unescape((value or "").strip())
+    if value.startswith("//"):
+        value = "https:" + value
+    parsed = urlparse(value)
+    if parsed.scheme == "https" and parsed.netloc:
+        return value
+    return ""
+
+
+def item_image(item: ET.Element) -> str:
+    """Return a secure image URL exposed by the story's RSS/Atom metadata."""
+    for node in item.iter():
+        name = node.tag.rsplit("}", 1)[-1].lower()
+        mime = node.attrib.get("type", "").lower()
+        medium = node.attrib.get("medium", "").lower()
+        candidate = node.attrib.get("url") or node.attrib.get("href") or ""
+        is_image_field = name in {"thumbnail", "image"} or (
+            name in {"content", "enclosure"}
+            and (mime.startswith("image/") or medium == "image")
+        ) or (
+            name == "link"
+            and node.attrib.get("rel", "").lower() in {"enclosure", "thumbnail"}
+            and mime.startswith("image/")
+        )
+        if candidate and is_image_field:
+            image = safe_image_url(candidate)
+            if image:
+                return image
+
+    # Some feeds put the article's image in the HTML description instead of
+    # RSS media metadata. Read the image URL only; never render feed HTML.
+    for node in item.iter():
+        if node.tag.rsplit("}", 1)[-1].lower() not in {"description", "summary", "encoded", "content"}:
+            continue
+        markup = node.text or ""
+        for match in re.finditer(r"(?is)<img\b[^>]*?\bsrc\s*=\s*(['\"])(.*?)\1", markup):
+            image = safe_image_url(match.group(2))
+            if image:
+                return image
+    return ""
+
+
 def fetch_feed(name: str, category: str, url: str) -> list[dict]:
     req = urllib.request.Request(url, headers={"User-Agent": "TeklonNewsBot/1.0 (+daily public RSS collector)", "Accept": "application/rss+xml, application/atom+xml, application/xml, text/xml"})
     with urllib.request.urlopen(req, timeout=25) as response:
@@ -88,8 +131,9 @@ def fetch_feed(name: str, category: str, url: str) -> list[dict]:
             title = title[:237].rstrip() + "…"
         if not desc:
             desc = f"{name} published a new update. Open the original report for details."
+        image = item_image(item)
         identity = hashlib.sha256(link.encode("utf-8")).hexdigest()[:16]
-        results.append({
+        story = {
             "id": identity,
             "category": category,
             "label": {"cyber": "CYBERSECURITY", "ai": "AI & RESEARCH", "vuln": "VULNERABILITY"}[category],
@@ -101,7 +145,10 @@ def fetch_feed(name: str, category: str, url: str) -> list[dict]:
             "summary": desc[:900],
             "detail": desc[:1600] or title,
             "url": link,
-        })
+        }
+        if image:
+            story["image"] = image
+        results.append(story)
     return results
 
 
