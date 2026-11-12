@@ -8,6 +8,8 @@ At 06:15 UTC, `.github/workflows/daily-news.yml` collects items published that U
 
 The workflows use GitHub Actions' `GITHUB_TOKEN`. In repository settings, allow GitHub Actions to create pull requests and configure a ruleset or branch protection for `main` that requires at least one approval. The merge waits for GitHub's required branch rules. The approved-review workflow publishes the site directly because GitHub does not start a Pages workflow for a push made with `GITHUB_TOKEN`.
 
+Every GitHub Action is pinned to a full commit SHA to comply with the repository's action policy.
+
 ## Publish the site
 
 In **Settings → Pages**, choose **GitHub Actions** as the build and deployment source. The `Publish Teklon website` workflow deploys ordinary pushes to `main`; approved automated briefing PRs are published by the merge-and-publish workflow. After the first merge, run **Prepare daily security briefing** once from the Actions tab to populate the first edition. GitHub Pages provides the public URL; a custom domain can be added in the same settings page.
