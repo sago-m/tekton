@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-labelledby="title desc">
+  <title id="title">Check an AI answer</title>
+  <desc id="desc">A person checks a short list of facts with a magnifying glass.</desc>
+  <rect width="900" height="700" rx="34" fill="#e3eceb"/>
+  <circle cx="692" cy="130" r="91" fill="#c2dcda"/>
+  <path d="M0 536c135-50 231-61 330-20 105 44 188 56 285 20 99-37 185-37 285 1v163H0Z" fill="#d0e1dd"/>
+  <rect x="134" y="435" width="638" height="25" rx="13" fill="#33473f"/>
+  <path d="M193 458h28l-12 171h-29Zm490 0h28l12 171h-29Z" fill="#7d9184"/>
+  <path d="M234 237c0-73 57-132 126-132s126 59 126 132v78H234Z" fill="#263e36"/>
+  <ellipse cx="360" cy="246" rx="92" ry="102" fill="#dca37f"/>
+  <path d="M269 226c7-79 57-122 119-121 42 1 77 28 93 71-52 2-104-9-132-39-14 34-41 66-80 89Z" fill="#253b35"/>
+  <circle cx="327" cy="250" r="5" fill="#26342e"/><circle cx="390" cy="250" r="5" fill="#26342e"/>
+  <path d="M339 292c13 10 29 10 42 0" fill="none" stroke="#87574a" stroke-width="6" stroke-linecap="round"/>
+  <path d="M244 434c18-78 60-108 116-108s101 30 120 108Z" fill="#d5a863"/>
+  <rect x="492" y="206" width="207" height="222" rx="21" fill="#fffdf5" transform="rotate(4 492 206)"/>
+  <circle cx="545" cy="268" r="14" fill="#c9f36a"/><path d="m539 268 5 5 9-11" fill="none" stroke="#465b44" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M574 264h82" stroke="#a9b2a7" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="545" cy="321" r="14" fill="#c9f36a"/><path d="m539 321 5 5 9-11" fill="none" stroke="#465b44" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M574 317h92" stroke="#a9b2a7" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="545" cy="374" r="14" fill="#e6e9df"/><path d="M574 370h65" stroke="#a9b2a7" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="677" cy="370" r="79" fill="#c9f36a" fill-opacity=".35" stroke="#54715d" stroke-width="13"/>
+  <path d="m732 427 75 82" stroke="#54715d" stroke-width="24" stroke-linecap="round"/>
+  <circle cx="677" cy="370" r="54" fill="none" stroke="#fff" stroke-width="4" stroke-dasharray="6 10"/>
+</svg>

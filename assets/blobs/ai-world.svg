@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-labelledby="title desc">
+  <title id="title">Learning to live with AI</title>
+  <desc id="desc">A person and a friendly glowing assistant share ideas at a table.</desc>
+  <rect width="900" height="700" rx="34" fill="#e8efe3"/>
+  <circle cx="696" cy="142" r="92" fill="#d2e9a2"/>
+  <path d="M0 526c135-73 252-88 354-36 104 53 194 68 291 31 99-37 178-38 255-2v181H0Z" fill="#d6e4d1"/>
+  <rect x="122" y="428" width="656" height="28" rx="14" fill="#344a3e"/>
+  <path d="M176 455h29l-14 172h-28Zm522 0h29l16 172h-29Z" fill="#778d79"/>
+  <rect x="218" y="174" width="233" height="248" rx="116" fill="#efb393"/>
+  <path d="M215 278c-10-100 37-170 117-170 73 0 116 58 116 143-40-7-64-29-85-59-24 40-76 68-148 86Z" fill="#283b34"/>
+  <path d="M236 414c26-58 72-82 128-82s102 24 128 82v18H236Z" fill="#a9c378"/>
+  <path d="M300 295c13 13 29 13 42 0" fill="none" stroke="#874d46" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="285" cy="260" r="6" fill="#26352f"/><circle cx="355" cy="260" r="6" fill="#26352f"/>
+  <circle cx="594" cy="306" r="78" fill="#233d33"/>
+  <circle cx="594" cy="306" r="55" fill="#c9f36a"/>
+  <path d="M570 305h48m-24-24v48" stroke="#496049" stroke-width="8" stroke-linecap="round"/>
+  <circle cx="594" cy="306" r="93" fill="none" stroke="#93b56b" stroke-width="3" stroke-dasharray="8 13"/>
+  <rect x="398" y="456" width="183" height="20" rx="10" fill="#f4f1e8" transform="rotate(-9 398 456)"/>
+  <path d="m429 461 24 24 40-45" fill="none" stroke="#7d9e5c" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="590" y="395" width="60" height="33" rx="16" fill="#fff"/><circle cx="608" cy="411" r="4" fill="#a2bc7b"/><circle cx="620" cy="411" r="4" fill="#a2bc7b"/><circle cx="632" cy="411" r="4" fill="#a2bc7b"/>
+</svg>
