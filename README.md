@@ -1,6 +1,6 @@
 # Teklon
 
-Teklon is a static daily security news briefing. The front end reads `news.json`; GitHub Actions refreshes that file from public RSS sources, opens a pull request for review, and publishes merged changes from `main` to GitHub Pages.
+Teklon is a static daily security news briefing. The front end reads `news.json`; GitHub Actions refreshes that file from public RSS sources, opens a pull request for review, and publishes merged changes from `main` to GitHub Pages. When an RSS item provides an HTTPS image, Teklon shows it on the story card and in the story detail.
 
 ## Daily review flow
 
@@ -22,4 +22,4 @@ Requires Python 3.10 or newer and network access to the RSS sources:
 python scripts/fetch_news.py
 ```
 
-The script only includes same-day stories on the landing page and retains up to 90 days of archive entries. It does not synthesize article details: summaries are plain-text excerpts from the source feeds, with the original article linked from each story.
+The script only includes same-day stories on the landing page and retains up to 90 days of archive entries. The Archive navigation opens a separate view grouped by day; each edition expands on demand, with older stories revealed in small batches. The collector does not synthesize article details: summaries are plain-text excerpts from the source feeds, with the original article linked from each story.
