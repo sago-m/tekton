@@ -17,6 +17,7 @@ from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_FILE = ROOT / "news.json"
+VIDEO_FILE = ROOT / "videos.json"
 FEEDS = [
     ("CISA advisories", "vuln", "https://www.cisa.gov/cybersecurity-advisories/all.xml"),
     ("BleepingComputer", "cyber", "https://www.bleepingcomputer.com/feed/"),
@@ -24,6 +25,19 @@ FEEDS = [
     ("OpenAI News", "ai", "https://openai.com/news/rss.xml"),
     ("Google AI", "ai", "https://blog.google/technology/ai/rss/"),
 ]
+YOUTUBE_CHANNELS = [
+    ("Google DeepMind", "ai", "UCP7jMXSY2xbc3KCAE0MHQ-A"),
+    ("IBM Technology", "ai", "UCKWaEZ-_VweaEx1j62do_vQ"),
+    ("John Hammond", "cyber", "UCVeW9qkBjo3zosnqUbG7CFw"),
+    ("LiveOverflow", "cyber", "UClcE-kVhqyiHCcjYwcpfj9w"),
+    ("Computerphile", "mixed", "UC9-y-6csu5WGm29I7JiwpnA"),
+]
+VIDEO_KEYWORDS = re.compile(
+    r"\b(ai|artificial intelligence|machine learning|cyber|security|privacy|"
+    r"malware|hacking|vulnerabilit|phishing|ransomware|deepfake|llm|"
+    r"large language model|encryption|exploit|threat|data breach)\b",
+    re.IGNORECASE,
+)
 UTC = dt.timezone.utc
 
 
@@ -152,8 +166,100 @@ def fetch_feed(name: str, category: str, url: str) -> list[dict]:
     return results
 
 
+def video_summary(description: str, title: str, channel: str) -> str:
+    """Make a readable short overview from the channel's public video description."""
+    cleaned = re.sub(r"https?://\S+", "", description or "")
+    cleaned = re.sub(r"(?m)#\w+", "", cleaned)
+    cleaned = re.sub(r"\s+", " ", cleaned).strip(" -–|")
+    sentences = re.split(r"(?<=[.!?])\s+", cleaned)
+    summary = " ".join(sentence for sentence in sentences if sentence)[:850].strip()
+    return summary or f"{channel} shares a recent video about {title}."
+
+
+def fetch_youtube_channel(name: str, category: str, channel_id: str) -> list[dict]:
+    """Read recent public uploads from a curated channel's YouTube Atom feed."""
+    url = f"https://www.youtube.com/feeds/videos.xml?channel_id={channel_id}"
+    req = urllib.request.Request(
+        url,
+        headers={"User-Agent": "TeklonVideoBot/1.0 (+public channel feed reader)",
+                 "Accept": "application/atom+xml, application/xml, text/xml"},
+    )
+    with urllib.request.urlopen(req, timeout=25) as response:
+        root = ET.fromstring(response.read())
+    results = []
+    for item in root.iter():
+        if item.tag.rsplit("}", 1)[-1] != "entry":
+            continue
+        title = plain_text(item_text(item, ("title",)))
+        video_id = ""
+        description = ""
+        thumbnail = ""
+        for node in item.iter():
+            local = node.tag.rsplit("}", 1)[-1].lower()
+            if local == "videoid":
+                video_id = (node.text or "").strip()
+            elif local in {"description", "summary", "content"} and node.text:
+                description = plain_text(node.text)
+            elif local == "thumbnail" and node.attrib.get("url"):
+                thumbnail = safe_image_url(node.attrib["url"])
+        published = parse_date(item)
+        if not video_id or not title or not published:
+            continue
+        if category == "mixed" and not VIDEO_KEYWORDS.search(f"{title} {description}"):
+            continue
+        video_category = category
+        if category == "mixed":
+            video_category = "cyber" if re.search(
+                r"\b(cyber|security|privacy|malware|hacking|vulnerabilit|phishing|ransomware|encryption|exploit|threat|data breach)\b",
+                f"{title} {description}", re.IGNORECASE,
+            ) else "ai"
+        summary = video_summary(description, title, name)
+        watch_url = f"https://www.youtube.com/watch?v={video_id}"
+        results.append({
+            "id": video_id,
+            "category": video_category,
+            "source": name,
+            "channelUrl": f"https://www.youtube.com/channel/{channel_id}",
+            "title": title[:240],
+            "description": summary[:260],
+            "summary": summary,
+            "thumbnail": thumbnail or f"https://i.ytimg.com/vi/{video_id}/hqdefault.jpg",
+            "url": watch_url,
+            "publishedAt": published.isoformat(),
+        })
+    return results
+
+
+def update_videos(today: dt.date) -> None:
+    previous = json.loads(VIDEO_FILE.read_text(encoding="utf-8")) if VIDEO_FILE.exists() else {}
+    by_id: dict[str, dict] = {
+        item["id"]: item for item in previous.get("videos", []) if item.get("id")
+    }
+    errors = []
+    for name, category, channel_id in YOUTUBE_CHANNELS:
+        try:
+            for item in fetch_youtube_channel(name, category, channel_id):
+                published = dt.datetime.fromisoformat(item["publishedAt"]).date()
+                if published >= today - dt.timedelta(days=30):
+                    by_id[item["id"]] = item
+        except (urllib.error.URLError, TimeoutError, ET.ParseError, OSError, ValueError) as exc:
+            errors.append(f"{name}: {exc}")
+    videos = sorted(by_id.values(), key=lambda item: item.get("publishedAt", ""), reverse=True)
+    videos = [item for item in videos if dt.datetime.fromisoformat(item["publishedAt"]).date() >= today - dt.timedelta(days=30)][:24]
+    if not videos and not previous.get("videos"):
+        print("No YouTube videos were retrieved; the video section will show its empty state.", file=sys.stderr)
+    VIDEO_FILE.write_text(json.dumps({
+        "updatedAt": dt.datetime.now(UTC).replace(microsecond=0).isoformat(),
+        "videos": videos,
+    }, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(f"Collected {len(videos)} recent YouTube videos from curated channels.")
+    if errors:
+        print("Some YouTube channels could not be refreshed:\n" + "\n".join(errors), file=sys.stderr)
+
+
 def main() -> None:
     today = dt.datetime.now(UTC).date()
+    update_videos(today)
     previous = json.loads(DATA_FILE.read_text(encoding="utf-8")) if DATA_FILE.exists() else {}
     fetched: list[dict] = []
     errors = []
