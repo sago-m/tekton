@@ -6,15 +6,15 @@ The landing page also has a JSON-powered **My Blobs** carousel for approachable 
 
 ## Daily review flow
 
-At 06:15 UTC, `.github/workflows/daily-news.yml` collects items published that UTC day from CISA advisories, BleepingComputer, The Hacker News, OpenAI News, and Google AI. Recent earlier items are placed in the archive. The workflow creates or updates one pull request. When a maintainer approves that daily briefing, `.github/workflows/merge-approved-news.yml` merges it into `main` and publishes the resulting site in the same run.
+At 06:00 Europe/London time, `.github/workflows/daily-news.yml` collects items published that UTC day from CISA advisories, BleepingComputer, The Hacker News, OpenAI News, and Google AI. Recent earlier items are placed in the archive. When the feed changes, the workflow creates or updates one pull request, attempts to merge it automatically, and publishes the resulting site after a successful merge. GitHub's timezone-aware schedule keeps the run at 06:00 through UK daylight-saving changes.
 
-The workflows use GitHub Actions' `GITHUB_TOKEN`. In repository settings, allow GitHub Actions to create pull requests and configure a ruleset or branch protection for `main` that requires at least one approval. The merge waits for GitHub's required branch rules. The approved-review workflow publishes the site directly because GitHub does not start a Pages workflow for a push made with `GITHUB_TOKEN`.
+The workflows use GitHub Actions' `GITHUB_TOKEN`. In repository settings, allow GitHub Actions to create pull requests. If the `main` ruleset blocks the automatic merge, the daily PR stays open for the approval workflow. Add a repository secret named `DAILY_MERGE_TOKEN` with an administrator token to let the daily workflow bypass the approval rules; otherwise, set the main ruleset to require zero approvals (this affects every PR). The daily workflow publishes the site directly because GitHub does not start another Pages workflow for a push made with `GITHUB_TOKEN`.
 
 Every GitHub Action is pinned to a full commit SHA to comply with the repository's action policy. The Pages workflows package the deployment archive directly and upload it with the SHA-pinned `actions/upload-artifact` action, avoiding an unpinned nested action.
 
 ## Publish the site
 
-In **Settings → Pages**, choose **GitHub Actions** as the build and deployment source. The `Publish Teklon website` workflow deploys ordinary pushes to `main`; approved automated briefing PRs are published by the merge-and-publish workflow. After the first merge, run **Prepare daily security briefing** once from the Actions tab to populate the first edition. GitHub Pages provides the public URL; a custom domain can be added in the same settings page.
+In **Settings → Pages**, choose **GitHub Actions** as the build and deployment source. The `Publish Teklon website` workflow deploys ordinary pushes to `main`; the daily briefing workflow publishes its own automatic merge. After the first merge, run **Refresh and publish daily security briefing** once from the Actions tab to populate the first edition. GitHub Pages provides the public URL; a custom domain can be added in the same settings page.
 
 ## Run the feed collector locally
 
