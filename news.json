@@ -1,7 +1,63 @@
 {
   "date": "2026-11-13",
-  "updatedAt": "2026-11-13T11:48:22+00:00",
+  "updatedAt": "2026-11-13T14:32:29+00:00",
   "stories": [
+    {
+      "id": "53b1d1645f89232b",
+      "category": "cyber",
+      "label": "CYBERSECURITY",
+      "time": "12:27 UTC",
+      "publishedAt": "2026-11-13T12:27:40+00:00",
+      "source": "BleepingComputer",
+      "title": "Microsoft says November security updates cause printing issues",
+      "description": "Microsoft warned customers earlier this week that the November 2026 security updates may break printing for documents with complex formatting. [...]",
+      "summary": "Microsoft warned customers earlier this week that the November 2026 security updates may break printing for documents with complex formatting. [...]",
+      "detail": "Microsoft warned customers earlier this week that the November 2026 security updates may break printing for documents with complex formatting. [...]",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
+      "featured": true
+    },
+    {
+      "id": "ed1f4b35eca7ef25",
+      "category": "cyber",
+      "label": "CYBERSECURITY",
+      "time": "11:52 UTC",
+      "publishedAt": "2026-11-13T11:52:31+00:00",
+      "source": "The Hacker News",
+      "title": "When an AI Agent Goes Wrong, Can You Stop It?",
+      "description": "Suppose an AI agent is asked to sort support tickets and look up account details. A ticket contains instructions that lead the agent to export records to an unfamiliar destination. The agent can make the request because its identity has access to the records and its connected tools allow the action.",
+      "summary": "Suppose an AI agent is asked to sort support tickets and look up account details. A ticket contains instructions that lead the agent to export records to an unfamiliar destination. The agent can make the request because its identity has access to the records and its connected tools allow the action. That kind of scenario raises a response question: what does “stop the agent” actually mean? A",
+      "detail": "Suppose an AI agent is asked to sort support tickets and look up account details. A ticket contains instructions that lead the agent to export records to an unfamiliar destination. The agent can make the request because its identity has access to the records and its connected tools allow the action. That kind of scenario raises a response question: what does “stop the agent” actually mean? A",
+      "url": "https://thehackernews.com/2026/11/when-ai-agent-goes-wrong-can-you-stop-it.html",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXkpxeEuWVGmGvK8wGnGdzjVbMHRyNOYd3GFjgzJZZN7TL2yyLt5Jof4gsujMYS9WfZnxUjFFs3mxFaejShy46vuXK38l_5R3RvospJ6J8IunrLPSDnI0sJgGtvNiNkc89XMR_KDDHWEOxAk800C2fKhwiOLMy433M3ASErPk_jMwoexS_5-1kpdJ8emE/s1600/Keeper.jpg"
+    },
+    {
+      "id": "7f22b6cf300a8942",
+      "category": "cyber",
+      "label": "CYBERSECURITY",
+      "time": "11:10 UTC",
+      "publishedAt": "2026-11-13T11:10:40+00:00",
+      "source": "The Hacker News",
+      "title": "SilentAir Hijacks Asian Telecom Networks to Intercept SMS 2FA Codes and Spy on Taiwanese Users",
+      "description": "A newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan. Enea, a telecom and cybersecurity software company based in Stockholm, found the group's attack sources in at least six Asian countries and named",
+      "summary": "A newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan. Enea, a telecom and cybersecurity software company based in Stockholm, found the group's attack sources in at least six Asian countries and named it SilentAir this week. It assessed with high confidence that SilentAir is a state-level actor,",
+      "detail": "A newly identified spying group used hacked equipment inside Asian mobile operators to intercept the calls and texts of selected people, mostly in Taiwan. Enea, a telecom and cybersecurity software company based in Stockholm, found the group's attack sources in at least six Asian countries and named it SilentAir this week. It assessed with high confidence that SilentAir is a state-level actor,",
+      "url": "https://thehackernews.com/2026/11/silentair-hijacks-asian-telecom.html",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjskRPNlV_kYE1N2eF2J_J0fBvF_nQxnvtaS78Grj04KqkEauvr-R5jO-ynD9nm51SgF2XtCCAsWUbJrHU0wGRnXC9yHmblhNCF8Jt9NdVahMju3voR2z9xb2uqoSi7Nc085UqDBelqg4XDRdjJ2lsF7EeN28rjq7oBc_NpBUWRqLWXiOh9FBRIH28teHM/s1600/telecom-hack.jpg"
+    },
+    {
+      "id": "d25f99854f909af5",
+      "category": "cyber",
+      "label": "CYBERSECURITY",
+      "time": "10:55 UTC",
+      "publishedAt": "2026-11-13T10:55:03+00:00",
+      "source": "The Hacker News",
+      "title": "Operation Endgame Takes Down Gootloader, CastleRAT and StealC Servers, Seizes 6.4M Stolen Logins",
+      "description": "An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal passwords, and launch ransomware attacks. Police also seized about 6.4 million stolen logins belonging to more than 40,000 ",
+      "summary": "An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal passwords, and launch ransomware attacks. Police also seized about 6.4 million stolen logins belonging to more than 40,000 victims, according to Germany's Federal Criminal Police Office (BKA). Gootloader is a loader:",
+      "detail": "An international police operation took down servers behind Gootloader, CastleRAT and StealC this week. Criminals used the three malware tools to gain access to computers, steal passwords, and launch ransomware attacks. Police also seized about 6.4 million stolen logins belonging to more than 40,000 victims, according to Germany's Federal Criminal Police Office (BKA). Gootloader is a loader:",
+      "url": "https://thehackernews.com/2026/11/operation-endgame-takes-down-gootloader.html",
+      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjsu6ZFyYFr1dxp2XHIaG_pyTwkoH58ICgyXLuTthkuYSJVcqAwX_O_bEJYfheyxpYmI7nnok1xrj97q7s-9l8JHFt1ogBAOJAEUqM8_vf6H3a8eYPKzB34d6XrvnkRu8zGaoKMgSJqWsE6u2zYXLdJKTtcDvk3beN6_o40ygJ4MVSMomS3Q1aEFV_jSq8/s1600/gootloader.jpg"
+    },
     {
       "id": "02c1dcd61c66dc6c",
       "category": "cyber",
@@ -13,8 +69,7 @@
       "description": "Check Point Software has released emergency hotfixes to address a high-severity flaw that hackers have been exploiting to gain root privileges and establish persistence on vulnerable devices since late October. [...]",
       "summary": "Check Point Software has released emergency hotfixes to address a high-severity flaw that hackers have been exploiting to gain root privileges and establish persistence on vulnerable devices since late October. [...]",
       "detail": "Check Point Software has released emergency hotfixes to address a high-severity flaw that hackers have been exploiting to gain root privileges and establish persistence on vulnerable devices since late October. [...]",
-      "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/",
-      "featured": true
+      "url": "https://www.bleepingcomputer.com/news/security/check-point-patches-zero-day-that-lets-hackers-get-root-access/"
     },
     {
       "id": "9c5c30b78fe1e9b2",
