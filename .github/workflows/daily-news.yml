@@ -41,11 +41,13 @@ jobs:
           branch: automation/daily-security-briefing
           base: main
           delete-branch: true
-          add-paths: news.json
-          commit-message: "content: refresh daily security briefing"
+          add-paths: |
+            news.json
+            videos.json
+          commit-message: "content: refresh daily security briefing and videos"
           title: "Daily security briefing"
           body: |
-            Automated daily refresh of the Teklon security, vulnerability, and AI news feed.
+            Automated daily refresh of the Teklon security, vulnerability, and AI news feed, plus recent videos from curated channels.
 
             This pull request is merged and published automatically after the feed refresh completes.
       - name: Merge the daily briefing PR
