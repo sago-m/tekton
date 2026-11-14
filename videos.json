@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-11-13T22:57:55+00:00",
+  "updatedAt": "2026-11-14T13:02:14+00:00",
   "videos": [
+    {
+      "id": "sZg4uJnU9rU",
+      "category": "ai",
+      "source": "IBM Technology",
+      "channelUrl": "https://www.youtube.com/channel/UCKWaEZ-_VweaEx1j62do_vQ",
+      "title": "Security's New Reality Check",
+      "description": "Everyone's a target. The question isn't if you'll be breached—it's how fast you can contain it. Learn the containment-first security mindset. --------------------------------------------------------------------------------------------------------- Find us on Y",
+      "summary": "Everyone's a target. The question isn't if you'll be breached—it's how fast you can contain it. Learn the containment-first security mindset. --------------------------------------------------------------------------------------------------------- Find us on YouTube: 🔵 IBM Technology: 🔵 IBM: 🔵 IBM Developer:",
+      "thumbnail": "https://i4.ytimg.com/vi/sZg4uJnU9rU/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=sZg4uJnU9rU",
+      "publishedAt": "2026-11-14T05:00:28+00:00"
+    },
     {
       "id": "-mhIHhRz2Ew",
       "category": "cyber",
@@ -276,18 +288,6 @@
       "thumbnail": "https://i4.ytimg.com/vi/CyuHd7wOAkM/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=CyuHd7wOAkM",
       "publishedAt": "2026-11-04T15:43:40+00:00"
-    },
-    {
-      "id": "AtGmZZrQHJo",
-      "category": "cyber",
-      "source": "John Hammond",
-      "channelUrl": "https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw",
-      "title": "Microsoft Edge Did ANOTHER Awesome Thing",
-      "description": "I got to chat with Rob Franco & Lu Huang from Microsoft about how they’re turning user reports into real protection against scareware and malicious website notifications! Learn Cybersecurity and more with Just Hacking Training: See what else I'm up to with: ℹ️",
-      "summary": "I got to chat with Rob Franco & Lu Huang from Microsoft about how they’re turning user reports into real protection against scareware and malicious website notifications! Learn Cybersecurity and more with Just Hacking Training: See what else I'm up to with: ℹ️ Resources: See what cybersecurity events are happening: Learn how to code with CodeCrafters: Host your own VPN with OpenVPN: Get Blue Team Training and SOC Analyst Certifications with CyberDefenders:",
-      "thumbnail": "https://i2.ytimg.com/vi/AtGmZZrQHJo/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=AtGmZZrQHJo",
-      "publishedAt": "2026-11-04T14:00:23+00:00"
     }
   ]
 }
