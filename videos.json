@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-11-14T13:02:14+00:00",
+  "updatedAt": "2026-11-15T13:30:07+00:00",
   "videos": [
+    {
+      "id": "K6ffYKrlPdU",
+      "category": "ai",
+      "source": "IBM Technology",
+      "channelUrl": "https://www.youtube.com/channel/UCKWaEZ-_VweaEx1j62do_vQ",
+      "title": "AI Model Debugging: Find the First Divergence Across AI Accelerators",
+      "description": "Learn more about AI Debugging here → The same AI model can produce different results across accelerators. Kaoutar El Maghraoui explains AI model debugging by finding the first observed divergence between executions. Learn how tensor comparisons, tolerances, an",
+      "summary": "Learn more about AI Debugging here → The same AI model can produce different results across accelerators. Kaoutar El Maghraoui explains AI model debugging by finding the first observed divergence between executions. Learn how tensor comparisons, tolerances, and minimal tests help isolate failures. 00:00 – Debug Different AI Model Results Across Accelerators 00:53 – Trace Errors Through the AI Software Stack 02:40 – Separate Expected Variation from Correctness Bugs 03:05 – See How Small Differences Propagate Through Models 04:45 – Localize the Difference Before Diagnosing It 05:52 – Build a Validated Reference Execution 06:50 – Find the First Observed Divergence 08:42 – Compare Tensors with Numerical Tolerances 10:23 – Isolate the Operation with a Minimal Test 12:32 – Turn the Fix into a Regression Test Continue your education in the cours",
+      "thumbnail": "https://i4.ytimg.com/vi/K6ffYKrlPdU/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=K6ffYKrlPdU",
+      "publishedAt": "2026-11-15T12:00:36+00:00"
+    },
     {
       "id": "sZg4uJnU9rU",
       "category": "ai",
@@ -276,18 +288,6 @@
       "thumbnail": "https://i3.ytimg.com/vi/6BkHNbiRgLE/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=6BkHNbiRgLE",
       "publishedAt": "2026-11-04T19:00:36+00:00"
-    },
-    {
-      "id": "CyuHd7wOAkM",
-      "category": "cyber",
-      "source": "John Hammond",
-      "channelUrl": "https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw",
-      "title": "Attacks Are Accelerating",
-      "description": "The pace of internet-wide exploitation is changing. New vulnerabilities and proof-of-concept exploits can make their way into botnet activity much faster than they used to, sometimes within the same day. Andrew Morris of GreyNoise joins me to discuss what this",
-      "summary": "The pace of internet-wide exploitation is changing. New vulnerabilities and proof-of-concept exploits can make their way into botnet activity much faster than they used to, sometimes within the same day. Andrew Morris of GreyNoise joins me to discuss what this means for defenders and how Project Swarm can help provide visibility into activity happening across the internet. Full video:",
-      "thumbnail": "https://i4.ytimg.com/vi/CyuHd7wOAkM/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=CyuHd7wOAkM",
-      "publishedAt": "2026-11-04T15:43:40+00:00"
     }
   ]
 }
