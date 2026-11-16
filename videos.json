@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-11-15T13:30:07+00:00",
+  "updatedAt": "2026-11-16T14:56:14+00:00",
   "videos": [
+    {
+      "id": "iv32wI3MBpw",
+      "category": "ai",
+      "source": "IBM Technology",
+      "channelUrl": "https://www.youtube.com/channel/UCKWaEZ-_VweaEx1j62do_vQ",
+      "title": "Software Supply Chain Security: What AI Coding Changes",
+      "description": "Learn more about Supply Chain Security here → Your code is only part of what reaches production. Cedric Clyburn explains how dependencies, CI/CD pipelines, open source, and AI-generated code expand the software supply chain. Learn how SBOMs, automated checks, ",
+      "summary": "Learn more about Supply Chain Security here → Your code is only part of what reaches production. Cedric Clyburn explains how dependencies, CI/CD pipelines, open source, and AI-generated code expand the software supply chain. Learn how SBOMs, automated checks, independent review, and provenance reduce risk. 00:00 – See What Really Enters Your Application 01:00 – Define the Modern Software Supply Chain 02:02 – Understand Dependency Risk with Log4j 03:03 – Protect Package Registries from Ecosystem Poisoning 04:00 – See How Build Pipelines Become Attack Vectors 04:47 – Treat AI Coding Agents as Software Suppliers 06:01 – Shift Software Supply Chain Security Left 06:31 – Build an SBOM for Every Application 07:04 – Automate Security Checks and Verify AI Code 08:08 – Prove Software Provenance Before Production AI news moves fast. Sign up for a m",
+      "thumbnail": "https://i2.ytimg.com/vi/iv32wI3MBpw/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=iv32wI3MBpw",
+      "publishedAt": "2026-11-16T14:45:14+00:00"
+    },
     {
       "id": "K6ffYKrlPdU",
       "category": "ai",
@@ -276,18 +288,6 @@
       "thumbnail": "https://i3.ytimg.com/vi/rXFV1ivDe6c/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=rXFV1ivDe6c",
       "publishedAt": "2026-11-05T12:00:09+00:00"
-    },
-    {
-      "id": "6BkHNbiRgLE",
-      "category": "cyber",
-      "source": "John Hammond",
-      "channelUrl": "https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw",
-      "title": "Fighting PHP Zombies",
-      "description": "Will unpatched PHP sites rise up and become new adversaries? John Strand and I discuss the risk and how to make sure you're secure. Watch the full video: Learn Cybersecurity and more with Just Hacking Training: See what else I'm up to with: ℹ️ Resources: See w",
-      "summary": "Will unpatched PHP sites rise up and become new adversaries? John Strand and I discuss the risk and how to make sure you're secure. Watch the full video: Learn Cybersecurity and more with Just Hacking Training: See what else I'm up to with: ℹ️ Resources: See what cybersecurity events are happening: Learn how to code with CodeCrafters: Host your own VPN with OpenVPN: Get Blue Team Training and SOC Analyst Certifications with CyberDefenders:",
-      "thumbnail": "https://i3.ytimg.com/vi/6BkHNbiRgLE/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=6BkHNbiRgLE",
-      "publishedAt": "2026-11-04T19:00:36+00:00"
     }
   ]
 }
