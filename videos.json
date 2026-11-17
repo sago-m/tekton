@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-11-16T14:56:14+00:00",
+  "updatedAt": "2026-11-17T15:34:34+00:00",
   "videos": [
+    {
+      "id": "0MvcuIrects",
+      "category": "ai",
+      "source": "IBM Technology",
+      "channelUrl": "https://www.youtube.com/channel/UCKWaEZ-_VweaEx1j62do_vQ",
+      "title": "Is AI Really Superintelligence? ANI, AGI & ASI Explained",
+      "description": "Learn more about Artificial Superintelligence? here → Is today’s AI truly superintelligent, or are we overstating its capabilities? Jeff Crume explains intelligence through perception, thinking, learning, and action, then compares ANI, AGI, and ASI. Learn why ",
+      "summary": "Learn more about Artificial Superintelligence? here → Is today’s AI truly superintelligent, or are we overstating its capabilities? Jeff Crume explains intelligence through perception, thinking, learning, and action, then compares ANI, AGI, and ASI. Learn why current AI remains narrow and why greater capability demands security, governance, testing, and human control. 00:00 – Ask If AI Is Really Superintelligence 00:29 – Define What Intelligence Actually Means 02:23 – Understand Perception in Intelligent Systems 03:31 – Explore AI Thinking and Reasoning 04:28 – See How Intelligent Systems Learn 05:29 – Turn Intelligence into Action 06:41 – Define Artificial Intelligence 07:27 – Compare ANI, AGI & ASI 10:21 – See Why Today’s AI Is Not Superintelligent 11:01 – Control AI Capability with Safety and Governance AI news moves fast. Sign up for",
+      "thumbnail": "https://i1.ytimg.com/vi/0MvcuIrects/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=0MvcuIrects",
+      "publishedAt": "2026-11-17T12:00:39+00:00"
+    },
+    {
+      "id": "-m7pPKq-f2o",
+      "category": "cyber",
+      "source": "John Hammond",
+      "channelUrl": "https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw",
+      "title": "Minecraft Malware Research",
+      "description": "I've been experimenting with using Minecraft as an interface for malware research. I bring a hunt-derived sample into a contained sandbox, keep the VM running, and interact with the environment through an agent. It's a pretty unusual workflow, but that's part ",
+      "summary": "I've been experimenting with using Minecraft as an interface for malware research. I bring a hunt-derived sample into a contained sandbox, keep the VM running, and interact with the environment through an agent. It's a pretty unusual workflow, but that's part of the fun. Watch the full video:",
+      "thumbnail": "https://i2.ytimg.com/vi/-m7pPKq-f2o/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=-m7pPKq-f2o",
+      "publishedAt": "2026-11-16T18:22:21+00:00"
+    },
     {
       "id": "iv32wI3MBpw",
       "category": "ai",
@@ -264,30 +288,6 @@
       "thumbnail": "https://i4.ytimg.com/vi/KdMdEwLbQ8M/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=KdMdEwLbQ8M",
       "publishedAt": "2026-11-05T19:00:14+00:00"
-    },
-    {
-      "id": "zY0CAOjufAU",
-      "category": "cyber",
-      "source": "John Hammond",
-      "channelUrl": "https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw",
-      "title": "My Minecraft Mod needs Quarantine",
-      "description": "Check out all the sweet stuff they're up to at Start and see if it can ease the pain for the vendor rigamarole: Learn Cybersecurity and more with Just Hacking Training: See what else I'm up to with: ℹ️ Resources: See what cybersecurity events are happening: Le",
-      "summary": "Check out all the sweet stuff they're up to at Start and see if it can ease the pain for the vendor rigamarole: Learn Cybersecurity and more with Just Hacking Training: See what else I'm up to with: ℹ️ Resources: See what cybersecurity events are happening: Learn how to code with CodeCrafters: Host your own VPN with OpenVPN: Get Blue Team Training and SOC Analyst Certifications with CyberDefenders:",
-      "thumbnail": "https://i3.ytimg.com/vi/zY0CAOjufAU/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=zY0CAOjufAU",
-      "publishedAt": "2026-11-05T14:00:09+00:00"
-    },
-    {
-      "id": "rXFV1ivDe6c",
-      "category": "ai",
-      "source": "IBM Technology",
-      "channelUrl": "https://www.youtube.com/channel/UCKWaEZ-_VweaEx1j62do_vQ",
-      "title": "Are Vector Databases Still Needed? RAG, AI Agents & Search",
-      "description": "Learn more about Vector Databases here → Do AI applications still need vector databases? Martin Keen explores RAG, AI agents, embeddings, semantic search, and context windows to explain when vector databases matter and when simpler retrieval approaches work ju",
-      "summary": "Learn more about Vector Databases here → Do AI applications still need vector databases? Martin Keen explores RAG, AI agents, embeddings, semantic search, and context windows to explain when vector databases matter and when simpler retrieval approaches work just as well. Learn how to choose the right retrieval architecture for your workload. 00:00 - Are Vector Databases Still Needed in the Age of AI Agents? 00:29 - What Vector Databases Actually Do: Embeddings & Semantic Search 01:15 - The Retrieval Pyramid: Choosing the Right Search Strategy 01:49 - 3 Reasons You Might Not Need a Vector Database 02:01 - Agentic Search vs Vector Search: Can Keyword Search Win? 03:08 - Do Long Context Windows Make Retrieval Obsolete? 03:33 - The Hidden Costs of Embeddings and Vector Indexes 05:27 - When Vector Search Outperforms Keyword Search 07:22 - Vect",
-      "thumbnail": "https://i3.ytimg.com/vi/rXFV1ivDe6c/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=rXFV1ivDe6c",
-      "publishedAt": "2026-11-05T12:00:09+00:00"
     }
   ]
 }
