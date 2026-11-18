@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-11-17T15:34:34+00:00",
+  "updatedAt": "2026-11-18T15:12:38+00:00",
   "videos": [
+    {
+      "id": "Bn8DhYpy-qI",
+      "category": "ai",
+      "source": "IBM Technology",
+      "channelUrl": "https://www.youtube.com/channel/UCKWaEZ-_VweaEx1j62do_vQ",
+      "title": "Grok Build leaks apps and Outlook goes dark worldwide",
+      "description": "Visit Security Intelligence podcast page to get more AI content → What happens when your private AI app isn't so private? This week on Security Intelligence, Austin Zeizel, Sophie Cunningham and Bryan Clark join host Patrick Austin to unpack this week's cybers",
+      "summary": "Visit Security Intelligence podcast page to get more AI content → What happens when your private AI app isn't so private? This week on Security Intelligence, Austin Zeizel, Sophie Cunningham and Bryan Clark join host Patrick Austin to unpack this week's cybersecurity news. First, Claroc finds tens of thousands of Grok Build apps open to anyone who knew where to look, exposing business plans, medical results and employee IDs. The panel asks why secure defaults still aren’t the default. Then, a Microsoft 365 outage takes Outlook offline for users around the world. You can’t control when a major provider goes down, but you can control what happens next. Finally, Shinobi Security researchers rebuild a real wind farm attack and turn two AI models loose on it. The original attackers needed 11 days. The models needed two hours, and one threatene",
+      "thumbnail": "https://i3.ytimg.com/vi/Bn8DhYpy-qI/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Bn8DhYpy-qI",
+      "publishedAt": "2026-11-18T09:30:38+00:00"
+    },
     {
       "id": "0MvcuIrects",
       "category": "ai",
@@ -276,18 +288,6 @@
       "thumbnail": "https://i1.ytimg.com/vi/x_5JijpzprU/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=x_5JijpzprU",
       "publishedAt": "2026-11-06T09:30:07+00:00"
-    },
-    {
-      "id": "KdMdEwLbQ8M",
-      "category": "cyber",
-      "source": "John Hammond",
-      "channelUrl": "https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw",
-      "title": "Dissecting PHP Vulnerabilities with AI",
-      "description": "How important was the role that AI played in uncovering and researching the latest PHP vulnerabilities? Pretty big, it turns out. Watch the full video: Learn Cybersecurity and more with Just Hacking Training: See what else I'm up to with: ℹ️ Resources: See wha",
-      "summary": "How important was the role that AI played in uncovering and researching the latest PHP vulnerabilities? Pretty big, it turns out. Watch the full video: Learn Cybersecurity and more with Just Hacking Training: See what else I'm up to with: ℹ️ Resources: See what cybersecurity events are happening: Learn how to code with CodeCrafters: Host your own VPN with OpenVPN: Get Blue Team Training and SOC Analyst Certifications with CyberDefenders:",
-      "thumbnail": "https://i4.ytimg.com/vi/KdMdEwLbQ8M/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=KdMdEwLbQ8M",
-      "publishedAt": "2026-11-05T19:00:14+00:00"
     }
   ]
 }
