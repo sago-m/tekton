@@ -1,6 +1,54 @@
 {
-  "updatedAt": "2026-11-18T15:12:38+00:00",
+  "updatedAt": "2026-11-19T15:20:29+00:00",
   "videos": [
+    {
+      "id": "4LINhsEZEDI",
+      "category": "ai",
+      "source": "IBM Technology",
+      "channelUrl": "https://www.youtube.com/channel/UCKWaEZ-_VweaEx1j62do_vQ",
+      "title": "4 Types of AI Agent Loops: From Human-Led to Autonomous",
+      "description": "Learn more about Loop Engineering here → Not every AI agent should have the same autonomy. Martin Keen explains four AI agent loops: interactive, delegated, scheduled, and event-driven. Learn how goals, triggers, stopping conditions, and human review shape eac",
+      "summary": "Learn more about Loop Engineering here → Not every AI agent should have the same autonomy. Martin Keen explains four AI agent loops: interactive, delegated, scheduled, and event-driven. Learn how goals, triggers, stopping conditions, and human review shape each agentic workflow. 00:00 – Understand How AI Agent Loops Work 00:19 – Follow the Goal, Act, Observe & Adjust Cycle 01:12 – Decide Who Controls the AI Agent Loop 01:31 – Use Interactive Loops for Human-Led Tasks 03:30 – Delegate Stopping Conditions to AI 05:17 – Schedule Recurring AI Agent Workflows 06:40 – Trigger AI Agent Loops with Events 07:15 – Review AI Work with a Second Agent 08:01 – Escalate Agent Exceptions to Humans 08:32 – Compare the 4 Types of AI Agent Loops AI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → AI was used in the creation of the",
+      "thumbnail": "https://i1.ytimg.com/vi/4LINhsEZEDI/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=4LINhsEZEDI",
+      "publishedAt": "2026-11-19T12:00:08+00:00"
+    },
+    {
+      "id": "pVc6KkjeCfU",
+      "category": "ai",
+      "source": "Google DeepMind",
+      "channelUrl": "https://www.youtube.com/channel/UCP7jMXSY2xbc3KCAE0MHQ-A",
+      "title": "Behind the scenes with Genie 4",
+      "description": "Go behind the scenes of our recent Genie 4 film as we explore our most realistic and interactive world model yet. Instead of generating static video, Genie 4 simulates dynamic worlds in real time. Watch how our team used Genie 4 and Project Genie to turn text ",
+      "summary": "Go behind the scenes of our recent Genie 4 film as we explore our most realistic and interactive world model yet. Instead of generating static video, Genie 4 simulates dynamic worlds in real time. Watch how our team used Genie 4 and Project Genie to turn text prompts into explorable environments in seconds, navigate scenes with keyboard controls, and direct action on the fly with live prompts. Using the built-in agent in Project Genie, the team also built custom apps mapped to keyboard hotkeys—triggering character movement, dialogue, and events in real time—and used prompts as repeatable seeds for everything from creative prototyping to robotics training environments. Genie 4 is now available in Project Genie, starting with eligible Google AI Ultra subscribers. Team: Google DeepMind, Special Guest Learn more about Genie 4: ___ Subscribe t",
+      "thumbnail": "https://i1.ytimg.com/vi/pVc6KkjeCfU/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=pVc6KkjeCfU",
+      "publishedAt": "2026-11-18T18:12:24+00:00"
+    },
+    {
+      "id": "EDp4IoAUsXY",
+      "category": "ai",
+      "source": "Google DeepMind",
+      "channelUrl": "https://www.youtube.com/channel/UCP7jMXSY2xbc3KCAE0MHQ-A",
+      "title": "Introducing the new Project Genie, powered by Genie 4",
+      "description": "Step inside your imagination with Project Genie, now powered by Google DeepMind’s most realistic and interactive world model yet, Genie 4. Project Genie brings our most advanced world and multimodal models together with Gemini so you can turn ideas into explor",
+      "summary": "Step inside your imagination with Project Genie, now powered by Google DeepMind’s most realistic and interactive world model yet, Genie 4. Project Genie brings our most advanced world and multimodal models together with Gemini so you can turn ideas into explorable, shareable worlds right in your browser: • Shape worlds in real time with Genie 4: Trigger dynamic events using natural language—like shifting the weather, introducing new characters, or changing the action mid-session—complete with simulated physics, natural lighting, and native scene-matched audio and character dialogue. • Build with the Project Genie agent: Describe the story or simulation you want to create, and the new agent generates starting visuals and custom background music, while Gemini observes in-session to suggest or trigger live events. • Explore & remix the commu",
+      "thumbnail": "https://i2.ytimg.com/vi/EDp4IoAUsXY/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=EDp4IoAUsXY",
+      "publishedAt": "2026-11-18T18:12:21+00:00"
+    },
+    {
+      "id": "w9VqhLZhRks",
+      "category": "ai",
+      "source": "IBM Technology",
+      "channelUrl": "https://www.youtube.com/channel/UCKWaEZ-_VweaEx1j62do_vQ",
+      "title": "Preparing for Service Outages",
+      "description": "What happens when your communication tools go down? Watch Security Intelligence to learn how to keep your business running when critical services fail. Plan ahead, stay resilient. --------------------------------------------------------------------------------",
+      "summary": "What happens when your communication tools go down? Watch Security Intelligence to learn how to keep your business running when critical services fail. Plan ahead, stay resilient. --------------------------------------------------------------------------------------------------------- Find us on YouTube: 🔵 IBM Technology: 🔵 IBM: 🔵 IBM Developer:",
+      "thumbnail": "https://i4.ytimg.com/vi/w9VqhLZhRks/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=w9VqhLZhRks",
+      "publishedAt": "2026-11-18T17:00:25+00:00"
+    },
     {
       "id": "Bn8DhYpy-qI",
       "category": "ai",
@@ -240,54 +288,6 @@
       "thumbnail": "https://i1.ytimg.com/vi/PSDdF_Naz_M/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=PSDdF_Naz_M",
       "publishedAt": "2026-11-06T19:00:05+00:00"
-    },
-    {
-      "id": "gCyYXURQCNw",
-      "category": "cyber",
-      "source": "John Hammond",
-      "channelUrl": "https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw",
-      "title": "ClickFix Gets Sneaky",
-      "description": "ClickFix attacks have become common, but the payload details are worth paying attention to. I came across a particularly interesting example that uses a Windows command to search Firefox profiles, identify a file by size, copy it to a temporary directory, and ",
-      "summary": "ClickFix attacks have become common, but the payload details are worth paying attention to. I came across a particularly interesting example that uses a Windows command to search Firefox profiles, identify a file by size, copy it to a temporary directory, and run it as a batch script. Full video:",
-      "thumbnail": "https://i4.ytimg.com/vi/gCyYXURQCNw/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=gCyYXURQCNw",
-      "publishedAt": "2026-11-06T17:01:25+00:00"
-    },
-    {
-      "id": "xGpIgLJ9ZIM",
-      "category": "cyber",
-      "source": "John Hammond",
-      "channelUrl": "https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw",
-      "title": "A Database of Malware (in Minecraft)",
-      "description": "Automate and prove your security compliance with Vanta! Get $1,000 off with my link to cruise through compliance across SOC 2, ISO 27001, ISO 42001, NIST AI RMF, HIPAA, GDPR, and more! Learn Cybersecurity and more with Just Hacking Training: See what else I'm ",
-      "summary": "Automate and prove your security compliance with Vanta! Get $1,000 off with my link to cruise through compliance across SOC 2, ISO 27001, ISO 42001, NIST AI RMF, HIPAA, GDPR, and more! Learn Cybersecurity and more with Just Hacking Training: See what else I'm up to with: ℹ️ Resources: See what cybersecurity events are happening: Learn how to code with CodeCrafters: Host your own VPN with OpenVPN: Get Blue Team Training and SOC Analyst Certifications with CyberDefenders:",
-      "thumbnail": "https://i1.ytimg.com/vi/xGpIgLJ9ZIM/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=xGpIgLJ9ZIM",
-      "publishedAt": "2026-11-06T14:00:18+00:00"
-    },
-    {
-      "id": "IsQ-OuoxlUk",
-      "category": "cyber",
-      "source": "LiveOverflow",
-      "channelUrl": "https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w",
-      "title": "How an Image Causes a Heap Buffer Overflow // libheif",
-      "description": "How can uploading an image lead to a heap buffer overflow? Let's look at the libheif bug used in the OpenAI Discourse hack, with a visualization of image overlays, negative offsets, and what goes wrong when transparency is involved. This video is sponsored by ",
-      "summary": "How can uploading an image lead to a heap buffer overflow? Let's look at the libheif bug used in the OpenAI Discourse hack, with a visualization of image overlays, negative offsets, and what goes wrong when transparency is involved. This video is sponsored by Hextree.io, our cybersecurity learning platform. LEARN ON HEXTREE (ad) Learn hacking on Hextree: Join the Hextree Discord: PREVIOUS VIDEOS How OpenAI got hacked with an image: OpenAI Hacked with a 1-Year-Old Bug: RESOURCES Hacktron's original research, Hacking OpenAI: libheif source code and format documentation: Upstream commit, simplify overlay overlap area computation: Discourse security advisory: CHAPTERS 00:00 - Recap 01:05 - What's inside a HEIF or HEIC image? 03:46 - Visualizing image overlays and clipping 05:28 - What goes wrong with negative offsets? 07:59 - alpha blending 0",
-      "thumbnail": "https://i2.ytimg.com/vi/IsQ-OuoxlUk/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=IsQ-OuoxlUk",
-      "publishedAt": "2026-11-06T13:51:53+00:00"
-    },
-    {
-      "id": "x_5JijpzprU",
-      "category": "ai",
-      "source": "IBM Technology",
-      "channelUrl": "https://www.youtube.com/channel/UCKWaEZ-_VweaEx1j62do_vQ",
-      "title": "AI fixes AI in MIT study, Mistral's open model & Google Genie 4",
-      "description": "Visit Mixture of Experts podcast page to get more AI content → How close are we to AI that can improve itself? This week on Mixture of Experts, guest host Aili McConnon is joined by Chris Hay, Sascha Brodsky and Kiyu Gabriel tackle that question and more from ",
-      "summary": "Visit Mixture of Experts podcast page to get more AI content → How close are we to AI that can improve itself? This week on Mixture of Experts, guest host Aili McConnon is joined by Chris Hay, Sascha Brodsky and Kiyu Gabriel tackle that question and more from the latest AI headlines. First, MIT researchers demonstrate a technique that uses AI to modify another model's weights. The panel considers how close this brings us to recursive self-improvement and whether reward hacking poses a more immediate risk. Next, Mistral releases a trillion-parameter open-weight model while NVIDIA expands its open model offerings. With open models approaching frontier-level capabilities, will developers still need to rely on proprietary AI? Finally, Google DeepMind introduces Genie 4, its new world model. The panel debates how much these models actually und",
-      "thumbnail": "https://i1.ytimg.com/vi/x_5JijpzprU/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=x_5JijpzprU",
-      "publishedAt": "2026-11-06T09:30:07+00:00"
     }
   ]
 }
