@@ -1,6 +1,42 @@
 {
-  "updatedAt": "2026-11-19T15:20:29+00:00",
+  "updatedAt": "2026-11-20T14:57:58+00:00",
   "videos": [
+    {
+      "id": "Y6npte_lEKU",
+      "category": "ai",
+      "source": "IBM Technology",
+      "channelUrl": "https://www.youtube.com/channel/UCKWaEZ-_VweaEx1j62do_vQ",
+      "title": "Anthropic goes public, ChatGPT gets a wallet & AI designs new drugs",
+      "description": "Visit Mixture of Experts podcast page to get more AI content → Grand Theft Auto VI and Anthropic's trillion-dollar IPO have one thing in common: November 19. The internet has dubbed it “Grandthropic.” But beyond the memes, what does Anthropic's public debut me",
+      "summary": "Visit Mixture of Experts podcast page to get more AI content → Grand Theft Auto VI and Anthropic's trillion-dollar IPO have one thing in common: November 19. The internet has dubbed it “Grandthropic.” But beyond the memes, what does Anthropic's public debut mean for the AI chip market? This week on Mixture of Experts, host David Zax is joined by Alexis Zamkow, Sridhar Rajagopalan and Kush Varshney to discuss this and more. Next, OpenAI introduces ChatGPT Wallet, allowing AI agents to make purchases on your behalf. David shares how he let Claude buy an $850 projector, while Kush isn't quite ready to hand over his wallet. What will it take for consumers to trust AI with their money? Finally, Isomorphic Labs raises $5 billion to advance AI-powered drug discovery. The panel discusses how AI can narrow down promising drug candidates and why pr",
+      "thumbnail": "https://i2.ytimg.com/vi/Y6npte_lEKU/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Y6npte_lEKU",
+      "publishedAt": "2026-11-20T09:30:19+00:00"
+    },
+    {
+      "id": "FORdPIWOH5k",
+      "category": "ai",
+      "source": "Google DeepMind",
+      "channelUrl": "https://www.youtube.com/channel/UCP7jMXSY2xbc3KCAE0MHQ-A",
+      "title": "Gemini and the path to AGI with Koray Kavukcuoglu",
+      "description": "Seven years after their last conversation at Google DeepMind’s London office, Professor Hannah Fry reunites with Koray Kavukcuoglu, SVP at Google DeepMind and Chief AI Architect at Google. Back then, DeepMind was focused on specialized breakthroughs; today, Ko",
+      "summary": "Seven years after their last conversation at Google DeepMind’s London office, Professor Hannah Fry reunites with Koray Kavukcuoglu, SVP at Google DeepMind and Chief AI Architect at Google. Back then, DeepMind was focused on specialized breakthroughs; today, Koray is leading the charge toward general-purpose intelligence with Gemini. In this episode, they discuss why real-world products are essential to building artificial general intelligence (AGI), how Gemini’s architecture continuously evolves, and the topic on everyone's mind: recursive self-improvement (RSI). 00:00 Introduction 01:26 Evolution of Google DeepMind 04:41 Products as a path to AGI 13:01 Architectures and models 24:40 Recursive self improvement 30:50 Safety and agent teams 40:35 Benchmarks ___ Subscribe to our channel Find us on X Follow us on Instagram Add us on Linkedin",
+      "thumbnail": "https://i3.ytimg.com/vi/FORdPIWOH5k/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=FORdPIWOH5k",
+      "publishedAt": "2026-11-19T19:58:06+00:00"
+    },
+    {
+      "id": "eoE8WQALJrc",
+      "category": "cyber",
+      "source": "John Hammond",
+      "channelUrl": "https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw",
+      "title": "Minecraft Malware Lab",
+      "description": "What happens when you bring a malware research environment into Minecraft? I'm exploring how to connect the game to real analysis infrastructure, including MWDB, and turn an unconventional interface into something genuinely useful. Watch the full video:",
+      "summary": "What happens when you bring a malware research environment into Minecraft? I'm exploring how to connect the game to real analysis infrastructure, including MWDB, and turn an unconventional interface into something genuinely useful. Watch the full video:",
+      "thumbnail": "https://i2.ytimg.com/vi/eoE8WQALJrc/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=eoE8WQALJrc",
+      "publishedAt": "2026-11-19T16:50:42+00:00"
+    },
     {
       "id": "4LINhsEZEDI",
       "category": "ai",
@@ -20,7 +56,7 @@
       "channelUrl": "https://www.youtube.com/channel/UCP7jMXSY2xbc3KCAE0MHQ-A",
       "title": "Behind the scenes with Genie 4",
       "description": "Go behind the scenes of our recent Genie 4 film as we explore our most realistic and interactive world model yet. Instead of generating static video, Genie 4 simulates dynamic worlds in real time. Watch how our team used Genie 4 and Project Genie to turn text ",
-      "summary": "Go behind the scenes of our recent Genie 4 film as we explore our most realistic and interactive world model yet. Instead of generating static video, Genie 4 simulates dynamic worlds in real time. Watch how our team used Genie 4 and Project Genie to turn text prompts into explorable environments in seconds, navigate scenes with keyboard controls, and direct action on the fly with live prompts. Using the built-in agent in Project Genie, the team also built custom apps mapped to keyboard hotkeys—triggering character movement, dialogue, and events in real time—and used prompts as repeatable seeds for everything from creative prototyping to robotics training environments. Genie 4 is now available in Project Genie, starting with eligible Google AI Ultra subscribers. Team: Google DeepMind, Special Guest Learn more about Genie 4: ___ Subscribe t",
+      "summary": "Go behind the scenes of our recent Genie 4 film as we explore our most realistic and interactive world model yet. Instead of generating static video, Genie 4 simulates dynamic worlds in real time. Watch how our team used Genie 4 and Project Genie to turn text prompts into explorable environments in seconds, navigate scenes with keyboard controls, and direct action on the fly with live prompts. Using the built-in agent in Project Genie, the team also built custom apps mapped to keyboard hotkeys—triggering character movement, dialogue, and events in real time—and used prompts as repeatable seeds for everything from creative prototyping to robotics training environments. Genie 4 is now available in Project Genie, starting with eligible Google AI Ultra subscribers. Team: Google DeepMind, SpecialGuestX Learn more about Genie 4: ___ Subscribe t",
       "thumbnail": "https://i1.ytimg.com/vi/pVc6KkjeCfU/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=pVc6KkjeCfU",
       "publishedAt": "2026-11-18T18:12:24+00:00"
@@ -252,42 +288,6 @@
       "thumbnail": "https://i1.ytimg.com/vi/H_GJapsoLyU/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=H_GJapsoLyU",
       "publishedAt": "2026-11-08T12:00:25+00:00"
-    },
-    {
-      "id": "F4duxQ4mMrg",
-      "category": "cyber",
-      "source": "John Hammond",
-      "channelUrl": "https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw",
-      "title": "Taking your PHP Website Offline",
-      "description": "Sometimes the best move is to take your vulnerable site offline. Here's how I handled it with my own site. Watch the full video: Learn Cybersecurity and more with Just Hacking Training: See what else I'm up to with: ℹ️ Resources: See what cybersecurity events ",
-      "summary": "Sometimes the best move is to take your vulnerable site offline. Here's how I handled it with my own site. Watch the full video: Learn Cybersecurity and more with Just Hacking Training: See what else I'm up to with: ℹ️ Resources: See what cybersecurity events are happening: Learn how to code with CodeCrafters: Host your own VPN with OpenVPN: Get Blue Team Training and SOC Analyst Certifications with CyberDefenders:",
-      "thumbnail": "https://i3.ytimg.com/vi/F4duxQ4mMrg/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=F4duxQ4mMrg",
-      "publishedAt": "2026-11-07T19:00:30+00:00"
-    },
-    {
-      "id": "9FVcrVMnZNw",
-      "category": "cyber",
-      "source": "John Hammond",
-      "channelUrl": "https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw",
-      "title": "AI Security Boundaries",
-      "description": "Ashish Rajan and I discuss the limits of AI guardrails, why prompt injection remains a challenge, and where responsibility for securing AI systems really falls. Watch the full conversation:",
-      "summary": "Ashish Rajan and I discuss the limits of AI guardrails, why prompt injection remains a challenge, and where responsibility for securing AI systems really falls. Watch the full conversation:",
-      "thumbnail": "https://i2.ytimg.com/vi/9FVcrVMnZNw/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=9FVcrVMnZNw",
-      "publishedAt": "2026-11-07T17:57:28+00:00"
-    },
-    {
-      "id": "PSDdF_Naz_M",
-      "category": "cyber",
-      "source": "John Hammond",
-      "channelUrl": "https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw",
-      "title": "Next Steps for PHP",
-      "description": "The PHP vulnerabilities are out there and the patches are live. So what now? Andrew Morgan, John Strand, and I discuss the next steps to ensure you're safe. Watch the full video: Learn Cybersecurity and more with Just Hacking Training: See what else I'm up to ",
-      "summary": "The PHP vulnerabilities are out there and the patches are live. So what now? Andrew Morgan, John Strand, and I discuss the next steps to ensure you're safe. Watch the full video: Learn Cybersecurity and more with Just Hacking Training: See what else I'm up to with: ℹ️ Resources: See what cybersecurity events are happening: Learn how to code with CodeCrafters: Host your own VPN with OpenVPN: Get Blue Team Training and SOC Analyst Certifications with CyberDefenders:",
-      "thumbnail": "https://i1.ytimg.com/vi/PSDdF_Naz_M/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=PSDdF_Naz_M",
-      "publishedAt": "2026-11-06T19:00:05+00:00"
     }
   ]
 }
