@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-11-20T14:57:58+00:00",
+  "updatedAt": "2026-11-21T14:18:27+00:00",
   "videos": [
+    {
+      "id": "hWQjNS8iP7M",
+      "category": "ai",
+      "source": "IBM Technology",
+      "channelUrl": "https://www.youtube.com/channel/UCKWaEZ-_VweaEx1j62do_vQ",
+      "title": "Drug Design's Hidden Challenge",
+      "description": "Killing cancer is easy—keeping patients alive is hard. Discover how AI predicts drug toxicity and solubility before clinical trials. 🧬💊 --------------------------------------------------------------------------------------------------------- Find us on YouTube",
+      "summary": "Killing cancer is easy—keeping patients alive is hard. Discover how AI predicts drug toxicity and solubility before clinical trials. 🧬💊 --------------------------------------------------------------------------------------------------------- Find us on YouTube: 🔵 IBM Technology: 🔵 IBM: 🔵 IBM Developer:",
+      "thumbnail": "https://i1.ytimg.com/vi/hWQjNS8iP7M/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=hWQjNS8iP7M",
+      "publishedAt": "2026-11-20T17:00:35+00:00"
+    },
     {
       "id": "Y6npte_lEKU",
       "category": "ai",
@@ -276,18 +288,6 @@
       "thumbnail": "https://i4.ytimg.com/vi/GpZ5T51jE4U/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=GpZ5T51jE4U",
       "publishedAt": "2026-11-09T12:00:33+00:00"
-    },
-    {
-      "id": "H_GJapsoLyU",
-      "category": "ai",
-      "source": "IBM Technology",
-      "channelUrl": "https://www.youtube.com/channel/UCKWaEZ-_VweaEx1j62do_vQ",
-      "title": "Why AI Models Run Faster on Some Chips: The KV Cache Effect",
-      "description": "Learn more about KV Cache here → The same AI model can run differently across chips. Kaoutar El Maghraoui explains how GPUs, TPUs, and AI accelerators store and move KV cache during LLM inference. Learn why memory architecture and data movement can shape AI pe",
-      "summary": "Learn more about KV Cache here → The same AI model can run differently across chips. Kaoutar El Maghraoui explains how GPUs, TPUs, and AI accelerators store and move KV cache during LLM inference. Learn why memory architecture and data movement can shape AI performance. 00:00 – Understand Why LLMs Need a KV Cache 00:46 – See How KV Cache Reuses Keys and Values 01:39 – Balance KV Cache Capacity and Fast Memory 02:41 – Follow KV Cache Through GPU Memory 04:41 – Compare TPU Memory and Compiler Orchestration 06:44 – Explore Dataflow Accelerator Memory 08:34 – Compare How AI Accelerators Move KV Cache 09:05 – Connect KV Cache Movement to LLM Performance Continue your education in the course Memory Systems in Dataflow Architectures on Coursera here → AI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → AI was used in t",
-      "thumbnail": "https://i1.ytimg.com/vi/H_GJapsoLyU/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=H_GJapsoLyU",
-      "publishedAt": "2026-11-08T12:00:25+00:00"
     }
   ]
 }
