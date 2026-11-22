@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-11-21T14:18:27+00:00",
+  "updatedAt": "2026-11-22T14:08:40+00:00",
   "videos": [
+    {
+      "id": "IYVqarjWO2g",
+      "category": "ai",
+      "source": "IBM Technology",
+      "channelUrl": "https://www.youtube.com/channel/UCKWaEZ-_VweaEx1j62do_vQ",
+      "title": "AI Accelerators vs. CPUs: Why They Think Differently",
+      "description": "Learn more about AI Accelerators here → The same math can behave very differently across AI hardware. Swagath Venkataramani compares CPUs, GPUs, and AI accelerators through scheduling, parallelism, and data movement. Learn why control flow, dataflow, latency, ",
+      "summary": "Learn more about AI Accelerators here → The same math can behave very differently across AI hardware. Swagath Venkataramani compares CPUs, GPUs, and AI accelerators through scheduling, parallelism, and data movement. Learn why control flow, dataflow, latency, and throughput shape performance. 00:00 – Compare How AI Hardware Decides What Runs Next 00:23 – Understand CPUs, GPUs & AI Accelerators 01:13 – Compare CPU Latency with GPU Throughput 02:44 – See How CPU Control Flow Works 04:21 – Understand GPU Parallelism & Warp Scheduling 06:47 – Follow Data Through the Memory Hierarchy 07:29 – Explore Dataflow AI Accelerators 08:27 – Schedule Compute and Data Movement Explicitly 09:17 – Understand Systolic Arrays for AI 10:20 – Match AI Hardware to the Workload Continue your education in the course Dataflow Execution Models on Coursera here → AI",
+      "thumbnail": "https://i2.ytimg.com/vi/IYVqarjWO2g/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=IYVqarjWO2g",
+      "publishedAt": "2026-11-22T12:00:34+00:00"
+    },
+    {
+      "id": "Oj-vfKqtoik",
+      "category": "cyber",
+      "source": "John Hammond",
+      "channelUrl": "https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw",
+      "title": "Minecraft Security Sandbox",
+      "description": "This Minecraft security research mod is getting more interesting. We're now exploring real open directories on the internet and viewing file contents inside the game. But that raises a bigger question: how do we sandbox the interaction and keep the environment",
+      "summary": "This Minecraft security research mod is getting more interesting. We're now exploring real open directories on the internet and viewing file contents inside the game. But that raises a bigger question: how do we sandbox the interaction and keep the environment secure? Watch the full video:",
+      "thumbnail": "https://i4.ytimg.com/vi/Oj-vfKqtoik/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=Oj-vfKqtoik",
+      "publishedAt": "2026-11-21T15:01:31+00:00"
+    },
     {
       "id": "hWQjNS8iP7M",
       "category": "ai",
@@ -264,30 +288,6 @@
       "thumbnail": "https://i1.ytimg.com/vi/4uvq8Cz3A7Y/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=4uvq8Cz3A7Y",
       "publishedAt": "2026-11-10T12:00:24+00:00"
-    },
-    {
-      "id": "yydGYEnRKzg",
-      "category": "cyber",
-      "source": "John Hammond",
-      "channelUrl": "https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw",
-      "title": "ClickFix Cache Trick",
-      "description": "A compromised website is using ClickFix to deliver a malicious payload through the browser cache. I dig into the Windows batch script and investigate why it's looking for a file with a very specific size. Watch the full breakdown:",
-      "summary": "A compromised website is using ClickFix to deliver a malicious payload through the browser cache. I dig into the Windows batch script and investigate why it's looking for a file with a very specific size. Watch the full breakdown:",
-      "thumbnail": "https://i2.ytimg.com/vi/yydGYEnRKzg/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=yydGYEnRKzg",
-      "publishedAt": "2026-11-09T14:37:32+00:00"
-    },
-    {
-      "id": "GpZ5T51jE4U",
-      "category": "ai",
-      "source": "IBM Technology",
-      "channelUrl": "https://www.youtube.com/channel/UCKWaEZ-_VweaEx1j62do_vQ",
-      "title": "Spec-Driven Development vs. Waterfall: What's Different for AI Coding?",
-      "description": "Learn more about Spec-Driven Development here → AI coding is making software specifications relevant again. Cedric Clyburn compares Spec-Driven Development with Waterfall and explains how evolving specs give AI agents better context. Learn why clearer specs ca",
-      "summary": "Learn more about Spec-Driven Development here → AI coding is making software specifications relevant again. Cedric Clyburn compares Spec-Driven Development with Waterfall and explains how evolving specs give AI agents better context. Learn why clearer specs can mean fewer prompts, faster iterations, and better code 00:00 – See Why AI Coding Needs Better Specs 00:43 – Define Spec-Driven Development 01:06 – Understand the Waterfall Development Model 01:38 – See Why Waterfall Specs Go Stale 02:47 – Ask If Spec-Driven Development Is Just Waterfall 03:09 – Build with an Iterative Spec-Driven Loop 03:39 – Refine an AI Coding Spec as You Build 04:18 – Keep Specifications Version-Controlled with Code 05:05 – Give AI Agents Better Context & Less Ambiguity 06:36 – Add Security, Compliance & Governance to Specs AI news moves fast. Sign up for a mont",
-      "thumbnail": "https://i4.ytimg.com/vi/GpZ5T51jE4U/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=GpZ5T51jE4U",
-      "publishedAt": "2026-11-09T12:00:33+00:00"
     }
   ]
 }
