@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-11-23T12:41:29+00:00",
+  "updatedAt": "2026-11-23T17:30:26+00:00",
   "videos": [
+    {
+      "id": "p0ZlaR-K5Xc",
+      "category": "cyber",
+      "source": "LiveOverflow",
+      "channelUrl": "https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w",
+      "title": "Reversing HEIF files, One Box at a Time // libheif",
+      "description": "Let's look at the first bytes of a HEIF file, by looking into how libheif parses it. This video is sponsored by Hextree.io, our cybersecurity learning platform. LEARN ON HEXTREE (ad) Learn hacking on Hextree: Join the Hextree Discord: PREVIOUS VIDEOS How OpenA",
+      "summary": "Let's look at the first bytes of a HEIF file, by looking into how libheif parses it. This video is sponsored by Hextree.io, our cybersecurity learning platform. LEARN ON HEXTREE (ad) Learn hacking on Hextree: Join the Hextree Discord: PREVIOUS VIDEOS How OpenAI got hacked with an image: OpenAI Hacked with a 1-Year-Old Bug: How an Image Causes a Heap Buffer Overflow // libheif: RESOURCES Nokia’s HEIF technical overview: MP4 Registration Authority, registered box types: MP4 Registration Authority, file brands: Corkami’s file format diagrams: CHAPTERS 00:00 - Recap 01:05 - Exploring HEIF with AI 02:41 - Setup Test Environment 04:50 - Tracing libheif Parsing Code 08:02 - The file-type box and compatible brands 10:09 - Can You Beat the Machine? (ad) 12:03 - Visualizing the hex dump 12:54 - Outro SUPPORT Per video: Per month: Buy my handwriting",
+      "thumbnail": "https://i1.ytimg.com/vi/p0ZlaR-K5Xc/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=p0ZlaR-K5Xc",
+      "publishedAt": "2026-11-23T15:38:22+00:00"
+    },
     {
       "id": "h4tHDFCPmQE",
       "category": "ai",
@@ -92,7 +104,7 @@
       "channelUrl": "https://www.youtube.com/channel/UCKWaEZ-_VweaEx1j62do_vQ",
       "title": "4 Types of AI Agent Loops: From Human-Led to Autonomous",
       "description": "Learn more about Loop Engineering here → Not every AI agent should have the same autonomy. Martin Keen explains four AI agent loops: interactive, delegated, scheduled, and event-driven. Learn how goals, triggers, stopping conditions, and human review shape eac",
-      "summary": "Learn more about Loop Engineering here → Not every AI agent should have the same autonomy. Martin Keen explains four AI agent loops: interactive, delegated, scheduled, and event-driven. Learn how goals, triggers, stopping conditions, and human review shape each agentic workflow. 00:00 – Understand How AI Agent Loops Work 00:19 – Follow the Goal, Act, Observe & Adjust Cycle 01:12 – Decide Who Controls the AI Agent Loop 01:31 – Use Interactive Loops for Human-Led Tasks 03:30 – Delegate Stopping Conditions to AI 05:17 – Schedule Recurring AI Agent Workflows 06:40 – Trigger AI Agent Loops with Events 07:15 – Review AI Work with a Second Agent 08:01 – Escalate Agent Exceptions to Humans 08:32 – Compare the 4 Types of AI Agent Loops AI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → AI was used in the creation of the",
+      "summary": "Learn more about Loop Engineering here → Not every AI agent should have the same autonomy. Martin Keen explains four AI agent loops: interactive, delegated, scheduled, and event-driven. Learn how goals, triggers, stopping conditions, and human review shape each agentic workflow. 00:00 – Understand How AI Agent Loops Work 00:19 – Follow the Goal, Act, Observe & Adjust Cycle 01:12 – Decide Who Controls the AI Agent Loop 01:31 – Use Interactive Loops for Human-Led Tasks 03:30 – Delegate Stopping Conditions to AI 05:17 – Schedule Recurring AI Agent Workflows 06:40 – Trigger AI Agent Loops with Events 07:15 – Review AI Work with a Second Agent 08:01 – Escalate Agent Exceptions to Humans 08:32 – Compare the 4 Types of AI Agent Loops AI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → Correction: The event-driven loop",
       "thumbnail": "https://i1.ytimg.com/vi/4LINhsEZEDI/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=4LINhsEZEDI",
       "publishedAt": "2026-11-19T12:00:08+00:00"
@@ -276,18 +288,6 @@
       "thumbnail": "https://i3.ytimg.com/vi/NuL5VFS8Prs/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=NuL5VFS8Prs",
       "publishedAt": "2026-11-11T09:30:16+00:00"
-    },
-    {
-      "id": "Q-e9L6ECpgM",
-      "category": "cyber",
-      "source": "John Hammond",
-      "channelUrl": "https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw",
-      "title": "Payload Podcast 013 - Catchup",
-      "description": "Learn Cybersecurity and more with Just Hacking Training: See what else I'm up to with: ℹ️ Resources: See what cybersecurity events are happening: Learn how to code with CodeCrafters: Host your own VPN with OpenVPN: Get Blue Team Training and SOC Analyst Certif",
-      "summary": "Learn Cybersecurity and more with Just Hacking Training: See what else I'm up to with: ℹ️ Resources: See what cybersecurity events are happening: Learn how to code with CodeCrafters: Host your own VPN with OpenVPN: Get Blue Team Training and SOC Analyst Certifications with CyberDefenders:",
-      "thumbnail": "https://i2.ytimg.com/vi/Q-e9L6ECpgM/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=Q-e9L6ECpgM",
-      "publishedAt": "2026-11-10T13:54:16+00:00"
     }
   ]
 }
