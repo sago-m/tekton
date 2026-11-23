@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-11-22T14:08:40+00:00",
+  "updatedAt": "2026-11-23T12:41:29+00:00",
   "videos": [
+    {
+      "id": "h4tHDFCPmQE",
+      "category": "ai",
+      "source": "IBM Technology",
+      "channelUrl": "https://www.youtube.com/channel/UCKWaEZ-_VweaEx1j62do_vQ",
+      "title": "Vibe Coding vs. Agentic Coding: Which Should You Use?",
+      "description": "Learn more about Agentic Coding here → Not every AI coding task needs the same workflow. Grace Ableidinger compares Vibe Coding with Agentic Coding across context, planning, testing, validation, and security. Learn which approach fits prototypes, production fe",
+      "summary": "Learn more about Agentic Coding here → Not every AI coding task needs the same workflow. Grace Ableidinger compares Vibe Coding with Agentic Coding across context, planning, testing, validation, and security. Learn which approach fits prototypes, production features, and complex code changes. 00:00 – Define Vibe Coding vs. Agentic Coding 01:23 – Understand How Vibe Coding Works 01:51 – Use Vibe Coding for Rapid Prototypes 02:12 – Identify Risks in AI-Generated Code 02:41 – Build with Agentic Coding Workflows 03:38 – Compare Vibe and Agentic Coding Side by Side 04:46 – Give AI Coding Agents Focused Context 06:04 – Secure Agentic Coding with Guardrails 07:17 – Choose the Right AI Coding Approach AI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → AI was used in the creation of the transcript and metadata for this",
+      "thumbnail": "https://i1.ytimg.com/vi/h4tHDFCPmQE/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=h4tHDFCPmQE",
+      "publishedAt": "2026-11-23T12:00:09+00:00"
+    },
     {
       "id": "IYVqarjWO2g",
       "category": "ai",
@@ -276,18 +288,6 @@
       "thumbnail": "https://i2.ytimg.com/vi/Q-e9L6ECpgM/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=Q-e9L6ECpgM",
       "publishedAt": "2026-11-10T13:54:16+00:00"
-    },
-    {
-      "id": "4uvq8Cz3A7Y",
-      "category": "ai",
-      "source": "IBM Technology",
-      "channelUrl": "https://www.youtube.com/channel/UCKWaEZ-_VweaEx1j62do_vQ",
-      "title": "What Is Model Distillation? How Smaller AI Models Learn",
-      "description": "Learn more about Knowledge Distillation here → Small AI models can learn from much larger ones. Aadam Mulla explains model distillation, where student models learn from a teacher’s soft labels and dark knowledge. Learn how distillation balances AI capability, ",
-      "summary": "Learn more about Knowledge Distillation here → Small AI models can learn from much larger ones. Aadam Mulla explains model distillation, where student models learn from a teacher’s soft labels and dark knowledge. Learn how distillation balances AI capability, speed, cost, and deployment. 00:00 – Understand What Model Distillation Does 00:36 – See Why Smaller AI Models Matter 01:15 – Connect Model Parameters to Memory and Speed 02:24 – Meet the Teacher and Student AI Models 02:50 – See How LLMs Predict the Next Token 04:59 – Train the Teacher Model with Hard Labels 07:26 – Train the Student with Soft Labels 09:12 – Understand Why Soft Labels Teach More 10:04 – Explore Dark Knowledge in Model Distillation 12:09 – Balance AI Capability with Model Efficiency AI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → AI was",
-      "thumbnail": "https://i1.ytimg.com/vi/4uvq8Cz3A7Y/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=4uvq8Cz3A7Y",
-      "publishedAt": "2026-11-10T12:00:24+00:00"
     }
   ]
 }
