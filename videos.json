@@ -1,6 +1,30 @@
 {
-  "updatedAt": "2026-11-23T17:30:26+00:00",
+  "updatedAt": "2026-11-24T17:02:15+00:00",
   "videos": [
+    {
+      "id": "HtlAZphgVG8",
+      "category": "cyber",
+      "source": "John Hammond",
+      "channelUrl": "https://www.youtube.com/channel/UCVeW9qkBjo3zosnqUbG7CFw",
+      "title": "Minecraft Security Chicken",
+      "description": "What does an exploit chicken have to do with security research? I'm experimenting with ways to explore real internet files inside Minecraft, and apparently even the chicken gets caught up in the process. There's some interesting engineering behind making that ",
+      "summary": "What does an exploit chicken have to do with security research? I'm experimenting with ways to explore real internet files inside Minecraft, and apparently even the chicken gets caught up in the process. There's some interesting engineering behind making that work safely. Watch the full video:",
+      "thumbnail": "https://i1.ytimg.com/vi/HtlAZphgVG8/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=HtlAZphgVG8",
+      "publishedAt": "2026-11-24T16:52:49+00:00"
+    },
+    {
+      "id": "OX9-zSfT4xI",
+      "category": "ai",
+      "source": "IBM Technology",
+      "channelUrl": "https://www.youtube.com/channel/UCKWaEZ-_VweaEx1j62do_vQ",
+      "title": "What Is Sovereign AI? Data, Models & AI Agents Explained",
+      "description": "Learn more about AI Sovereignty here → Sovereign AI goes far beyond controlling where data lives. Sam Anthony explains how sovereignty extends across AI models, infrastructure, inference, governance, and AI agents. Learn how visibility, continuous controls, an",
+      "summary": "Learn more about AI Sovereignty here → Sovereign AI goes far beyond controlling where data lives. Sam Anthony explains how sovereignty extends across AI models, infrastructure, inference, governance, and AI agents. Learn how visibility, continuous controls, and hybrid deployment help teams use AI on their own terms. 00:00 – See Why AI Growth Creates a Control Problem 00:42 – Understand What Sovereign AI Prevents 01:27 – Go Beyond Data Sovereignty 02:08 – Govern the Full AI Lifecycle 02:42 – Control Where AI Inference Runs 03:27 – Treat AI Sovereignty as a Spectrum 04:51 – Make AI Explainable, Governed & Auditable 05:29 – Turn AI Policies into Continuous Controls 06:06 – Govern AI Agents and Autonomous Actions 07:12 – Scale AI with Built-In Sovereignty AI news moves fast. Sign up for a monthly newsletter for AI updates from IBM → AI was us",
+      "thumbnail": "https://i4.ytimg.com/vi/OX9-zSfT4xI/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=OX9-zSfT4xI",
+      "publishedAt": "2026-11-24T12:00:16+00:00"
+    },
     {
       "id": "p0ZlaR-K5Xc",
       "category": "cyber",
@@ -78,9 +102,9 @@
       "category": "ai",
       "source": "Google DeepMind",
       "channelUrl": "https://www.youtube.com/channel/UCP7jMXSY2xbc3KCAE0MHQ-A",
-      "title": "Gemini and the path to AGI with Koray Kavukcuoglu",
+      "title": "Is Gemini our path to AGI?",
       "description": "Seven years after their last conversation at Google DeepMind’s London office, Professor Hannah Fry reunites with Koray Kavukcuoglu, SVP at Google DeepMind and Chief AI Architect at Google. Back then, DeepMind was focused on specialized breakthroughs; today, Ko",
-      "summary": "Seven years after their last conversation at Google DeepMind’s London office, Professor Hannah Fry reunites with Koray Kavukcuoglu, SVP at Google DeepMind and Chief AI Architect at Google. Back then, DeepMind was focused on specialized breakthroughs; today, Koray is leading the charge toward general-purpose intelligence with Gemini. In this episode, they discuss why real-world products are essential to building artificial general intelligence (AGI), how Gemini’s architecture continuously evolves, and the topic on everyone's mind: recursive self-improvement (RSI). 00:00 Introduction 01:26 Evolution of Google DeepMind 04:41 Products as a path to AGI 13:01 Architectures and models 24:40 Recursive self improvement 30:50 Safety and agent teams 40:35 Benchmarks ___ Subscribe to our channel Find us on X Follow us on Instagram Add us on Linkedin",
+      "summary": "Seven years after their last conversation at Google DeepMind’s London office, Professor Hannah Fry reunites with Koray Kavukcuoglu, SVP at Google DeepMind and Chief AI Architect at Google. Back then, DeepMind was focused on specialized breakthroughs; today, Koray is leading the charge toward general-purpose intelligence with Gemini. In this episode, they discuss why real-world products are essential to building artificial general intelligence (AGI), how Gemini’s architecture continuously evolves, and the topic on everyone's mind: recursive self-improvement (RSI). Timecodes: 00:00 Introduction 01:26 Evolution of Google DeepMind 04:41 Products as a path to AGI 13:01 Architectures and models 24:40 Recursive self improvement 30:50 Safety and agent teams 40:35 Benchmarks ___ Subscribe to our channel Find us on X Follow us on Instagram Add us o",
       "thumbnail": "https://i3.ytimg.com/vi/FORdPIWOH5k/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=FORdPIWOH5k",
       "publishedAt": "2026-11-19T19:58:06+00:00"
@@ -264,30 +288,6 @@
       "thumbnail": "https://i1.ytimg.com/vi/hvnPWgfmvyI/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=hvnPWgfmvyI",
       "publishedAt": "2026-11-12T12:00:39+00:00"
-    },
-    {
-      "id": "uND6iY2qp_c",
-      "category": "ai",
-      "source": "Google DeepMind",
-      "channelUrl": "https://www.youtube.com/channel/UCP7jMXSY2xbc3KCAE0MHQ-A",
-      "title": "AlphaGenome 2: Teaching AI to read the entire human genome",
-      "description": "98% of human DNA doesn't build proteins—it controls how our cells work, and holds vital clues to why diseases happen and why 90% of new drugs fail in clinical trials. Understanding the genome at the molecular level is the key to deciphering the blueprint of hu",
-      "summary": "98% of human DNA doesn't build proteins—it controls how our cells work, and holds vital clues to why diseases happen and why 90% of new drugs fail in clinical trials. Understanding the genome at the molecular level is the key to deciphering the blueprint of human life. In this episode, Professor Hannah Fry speaks with Google DeepMind's Žiga Avsec and Adam Gayoso about AlphaGenome, the AlphaGenome Atlas, and AlphaGenome 2—exploring how AI reads non-coding DNA down to single-cell resolution to pinpoint disease-causing mutations and help researchers solve medical mysteries. Timecodes: 00:00 Introduction to AlphaGenome 04:01 Genotype, Phenotype & DNA 08:30 Transformers to AlphaGenome 12:11 Mapping the Genome 17:45 Rare disease cases 21:10 AlphaGenome 2 30:06 Future vision 38:45 Hannah's thoughts Read more about AlphaGenome 2: ___ Subscribe to",
-      "thumbnail": "https://i2.ytimg.com/vi/uND6iY2qp_c/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=uND6iY2qp_c",
-      "publishedAt": "2026-11-11T18:00:31+00:00"
-    },
-    {
-      "id": "NuL5VFS8Prs",
-      "category": "ai",
-      "source": "IBM Technology",
-      "channelUrl": "https://www.youtube.com/channel/UCKWaEZ-_VweaEx1j62do_vQ",
-      "title": "The $6B Binance heist, Meta’s AI bug tests and looming quantum deadlines",
-      "description": "Visit Security Intelligence podcast page to get more AI content → Hackers spent months planning a $6 billion cryptocurrency heist. How did they get past security controls, and what can defenders learn from the attack? This week on Security Intelligence, Seth G",
-      "summary": "Visit Security Intelligence podcast page to get more AI content → Hackers spent months planning a $6 billion cryptocurrency heist. How did they get past security controls, and what can defenders learn from the attack? This week on Security Intelligence, Seth Glasgow, Dimple Ahluwalia and Suja Viswesan join host Patrick Austin to unpack three major cybersecurity stories. First, the Binance heist reveals how attackers exploited employees and internal systems to steal billions in cryptocurrency. The panel examines the sophisticated tactics behind the attack and what security teams can learn. Next, Meta is using AI to catch software bugs before they reach production. As AI takes on more of the testing process, how much human oversight is enough? Finally, IBM introduces Quantum Safe to help organizations prepare for post-quantum cryptography.",
-      "thumbnail": "https://i3.ytimg.com/vi/NuL5VFS8Prs/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=NuL5VFS8Prs",
-      "publishedAt": "2026-11-11T09:30:16+00:00"
     }
   ]
 }
