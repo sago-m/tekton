@@ -11,8 +11,8 @@ permissions:
   id-token: write
 
 concurrency:
-  group: approved-daily-briefing
-  cancel-in-progress: false
+  group: github-pages
+  queue: max
 
 jobs:
   merge-and-publish:
@@ -22,24 +22,42 @@ jobs:
       github.event.pull_request.head.ref == 'automation/daily-security-briefing'
     runs-on: ubuntu-latest
     steps:
+      - name: Check that the briefing pull request is still open
+        id: pull_request
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
+        run: |
+          STATE="$(gh pr view "$PR_NUMBER" --json state --jq .state)"
+          if [[ "$STATE" == "OPEN" ]]; then
+            echo "is_open=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "The briefing pull request is already closed; nothing remains to merge or publish." >> "$GITHUB_STEP_SUMMARY"
+            echo "is_open=false" >> "$GITHUB_OUTPUT"
+          fi
       - name: Merge the reviewed edition
+        if: steps.pull_request.outputs.is_open == 'true'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PR_NUMBER: ${{ github.event.pull_request.number }}
         run: gh pr merge "$PR_NUMBER" --squash --delete-branch
       - name: Check out the updated main branch
+        if: steps.pull_request.outputs.is_open == 'true'
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           ref: main
           fetch-depth: 0
       - name: Configure GitHub Pages
+        if: steps.pull_request.outputs.is_open == 'true'
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
       - name: Package the approved website
+        if: steps.pull_request.outputs.is_open == 'true'
         run: >-
           tar --dereference --hard-dereference --directory .
           -cf "$RUNNER_TEMP/artifact.tar"
           --exclude=.git --exclude=.github .
       - name: Upload the approved website artifact
+        if: steps.pull_request.outputs.is_open == 'true'
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
           name: github-pages
@@ -47,5 +65,6 @@ jobs:
           retention-days: 1
           if-no-files-found: error
       - name: Publish the approved edition
+        if: steps.pull_request.outputs.is_open == 'true'
         id: deployment
         uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
