@@ -1,6 +1,42 @@
 {
-  "updatedAt": "2026-11-24T17:02:15+00:00",
+  "updatedAt": "2026-11-25T16:52:12+00:00",
   "videos": [
+    {
+      "id": "51rbs_HA3m4",
+      "category": "ai",
+      "source": "IBM Technology",
+      "channelUrl": "https://www.youtube.com/channel/UCKWaEZ-_VweaEx1j62do_vQ",
+      "title": "OpenAI's $1.2M bug hunt, Grok Bot after dark & Optimizely malware",
+      "description": "Visit Security Intelligence podcast page to get more AI content → What does a $1.2 million AI bug hunt get you? For OpenAI, 948 working Linux kernel exploits. On episode 61 of Security Intelligence, Nick Bradley, San Sanda Htyte and Kimmie Farrington join host",
+      "summary": "Visit Security Intelligence podcast page to get more AI content → What does a $1.2 million AI bug hunt get you? For OpenAI, 948 working Linux kernel exploits. On episode 61 of Security Intelligence, Nick Bradley, San Sanda Htyte and Kimmie Farrington join host Patrick Austin to break down three cybersecurity stories and what they mean for defenders. First, OpenAI’s agents hunt for Linux kernel vulnerabilities and draft patches. Finding a bug and fixing it safely are two different jobs. What happens when AI finds more bugs than engineers have time to fix? Then, NewCore researchers catch two Grok Bot agents making 31 unapproved attempts to access employees’ email, Slack and GitHub accounts, some while their owners slept. The panel digs into why a chat prompt isn’t a security control. Finally, an attacker slips malicious JavaScript into Opti",
+      "thumbnail": "https://i2.ytimg.com/vi/51rbs_HA3m4/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=51rbs_HA3m4",
+      "publishedAt": "2026-11-25T10:30:58+00:00"
+    },
+    {
+      "id": "4nFA4zntF7I",
+      "category": "cyber",
+      "source": "Computerphile",
+      "channelUrl": "https://www.youtube.com/channel/UC9-y-6csu5WGm29I7JiwpnA",
+      "title": "Java4Shell Exploit - Computerphile",
+      "description": "Another week, another exploit has Dr Steve Bagley urging people to \"Patch, Patch, Patch!\" Exploit discovered by: Computerphile is supported by Jane Street. Learn more about them (and exciting career opportunities) at: This video was filmed and edited by Sean R",
+      "summary": "Another week, another exploit has Dr Steve Bagley urging people to \"Patch, Patch, Patch!\" Exploit discovered by: Computerphile is supported by Jane Street. Learn more about them (and exciting career opportunities) at: This video was filmed and edited by Sean Riley. Computerphile is a sister project to Brady Haran's Numberphile. More at",
+      "thumbnail": "https://i1.ytimg.com/vi/4nFA4zntF7I/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=4nFA4zntF7I",
+      "publishedAt": "2026-11-24T19:07:58+00:00"
+    },
+    {
+      "id": "K8rdrWQRd20",
+      "category": "ai",
+      "source": "Google DeepMind",
+      "channelUrl": "https://www.youtube.com/channel/UCP7jMXSY2xbc3KCAE0MHQ-A",
+      "title": "The brain helped us build AI. Now AI is explaining the brain.",
+      "description": "The human brain remains one of the greatest unsolved mysteries in science. We have roughly 86 billion neurons firing in a way that somehow produces intelligence, and yet the brain is still largely a black box. In the early days of AI, researchers looked to the",
+      "summary": "The human brain remains one of the greatest unsolved mysteries in science. We have roughly 86 billion neurons firing in a way that somehow produces intelligence, and yet the brain is still largely a black box. In the early days of AI, researchers looked to the brain for clues about how to build smarter machines. But today, that relationship has been flipped on its head. Join Professor Hannah Fry and neuroscience researchers Maria Eckstein and Kim Stachenfeld to see how scientists are using AI to better understand the human mind. 00:00 Introduction 01:11 Using AI to understand the brain 10:14 Exploring reward learning 27:50 Automating model discovery 34:50 Comparing species and future directions 42:11 Hannah’s thoughts ___ Subscribe to our channel Find us on X Follow us on Instagram Add us on Linkedin",
+      "thumbnail": "https://i4.ytimg.com/vi/K8rdrWQRd20/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=K8rdrWQRd20",
+      "publishedAt": "2026-11-24T17:51:08+00:00"
+    },
     {
       "id": "HtlAZphgVG8",
       "category": "cyber",
@@ -252,42 +288,6 @@
       "thumbnail": "https://i2.ytimg.com/vi/-mhIHhRz2Ew/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=-mhIHhRz2Ew",
       "publishedAt": "2026-11-13T17:03:31+00:00"
-    },
-    {
-      "id": "4pjeaeK4S9o",
-      "category": "ai",
-      "source": "IBM Technology",
-      "channelUrl": "https://www.youtube.com/channel/UCKWaEZ-_VweaEx1j62do_vQ",
-      "title": "Huang's Nvidia Legacy",
-      "description": "Jensen Huang built Nvidia over 30 years with relentless passion. Can anyone replace him? Explore the challenge facing AI's most iconic leader. --------------------------------------------------------------------------------------------------------- Find us on ",
-      "summary": "Jensen Huang built Nvidia over 30 years with relentless passion. Can anyone replace him? Explore the challenge facing AI's most iconic leader. --------------------------------------------------------------------------------------------------------- Find us on YouTube: 🔵 IBM Technology: 🔵 IBM: 🔵 IBM Developer:",
-      "thumbnail": "https://i1.ytimg.com/vi/4pjeaeK4S9o/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=4pjeaeK4S9o",
-      "publishedAt": "2026-11-13T17:00:36+00:00"
-    },
-    {
-      "id": "Az2aRR51fDU",
-      "category": "ai",
-      "source": "IBM Technology",
-      "channelUrl": "https://www.youtube.com/channel/UCKWaEZ-_VweaEx1j62do_vQ",
-      "title": "Jensen Huang exits NVIDIA & does Claude Fable 5.2 count as AGI?",
-      "description": "Visit Mixture of Experts podcast page to get more AI content → Who can replace a founder like Jensen Huang? This week on Mixture of Experts, host David Zax is joined by Derek Robertson, Bri Kopecki and Kiyu Gabriel. First, NVIDIA CEO Jensen Huang resigns after",
-      "summary": "Visit Mixture of Experts podcast page to get more AI content → Who can replace a founder like Jensen Huang? This week on Mixture of Experts, host David Zax is joined by Derek Robertson, Bri Kopecki and Kiyu Gabriel. First, NVIDIA CEO Jensen Huang resigns after more than three decades leading a company whose long-term investments helped shape the AI industry. The panel discusses whether the long-term bets Huang made, from CUDA to high-bandwidth networking, can keep NVIDIA ahead without him. Next, Anthropic releases Claude Fable 5.2, renewing questions about artificial general intelligence (AGI). A surprising demonstration of the model leads the panel into a debate about human creativity. If AI-generated art makes you feel something, does it matter who—or what—created it? Finally, a special one-on-one conversation examines Confluent's Strea",
-      "thumbnail": "https://i2.ytimg.com/vi/Az2aRR51fDU/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=Az2aRR51fDU",
-      "publishedAt": "2026-11-13T09:30:11+00:00"
-    },
-    {
-      "id": "hvnPWgfmvyI",
-      "category": "ai",
-      "source": "IBM Technology",
-      "channelUrl": "https://www.youtube.com/channel/UCKWaEZ-_VweaEx1j62do_vQ",
-      "title": "Why AI Agents Need RAG + Observability",
-      "description": "Learn more about Why Observability Is Essential for AI Agents here → Your AI agent knows the system, but what about now? Matt Aiken explains how RAG and observability give AI agents documented knowledge plus live metrics, logs, and traces. Learn how better ope",
-      "summary": "Learn more about Why Observability Is Essential for AI Agents here → Your AI agent knows the system, but what about now? Matt Aiken explains how RAG and observability give AI agents documented knowledge plus live metrics, logs, and traces. Learn how better operational context helps teams investigate issues with evidence. 00:00 – See What AI Agents Still Don't Know 00:37 – Give AI Agents Two Types of Context 00:46 – Ground AI Agents with RAG 01:47 – Add Live Context with Observability 03:06 – Investigate a Hybrid Transaction with AI 04:12 – Add Logs, Metrics & Traces to the Investigation 05:23 – Connect RAG Knowledge to Live Evidence 06:22 – Turn AI Context into Evidence, Impact & Next Steps 07:35 – Keep Human Operators in Control 08:09 – Combine RAG + Observability for Better AI Agents AI news moves fast. Sign up for a monthly newsletter",
-      "thumbnail": "https://i1.ytimg.com/vi/hvnPWgfmvyI/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=hvnPWgfmvyI",
-      "publishedAt": "2026-11-12T12:00:39+00:00"
     }
   ]
 }
