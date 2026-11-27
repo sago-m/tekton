@@ -14,6 +14,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from pathlib import Path
 from urllib.parse import urlparse
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_FILE = ROOT / "news.json"
@@ -39,6 +40,44 @@ VIDEO_KEYWORDS = re.compile(
     re.IGNORECASE,
 )
 UTC = dt.timezone.utc
+
+DAILY_STATEMENTS = [
+    "Stay curious about AI. Stay ready for the risks that come with it.",
+    "Learn one new thing about AI today; make tomorrow safer for everyone.",
+    "Curiosity is your best defense: keep learning how AI and security are changing.",
+    "Understand the tools shaping tomorrow, and help make them safer.",
+    "Every small step in learning AI or security builds a more confident future.",
+    "Ask better questions about AI today. Make smarter choices online tomorrow.",
+    "Keep learning, keep questioning, and help technology work for people.",
+    "AI moves fast. Your curiosity can help you move wisely.",
+    "Learn how the digital world works; you’ll be better prepared to shape it.",
+    "Build your AI knowledge and your security instincts, one day at a time.",
+    "Stay informed today so you can use tomorrow’s technology with confidence.",
+    "Curiosity turns unfamiliar technology into something you can understand.",
+    "Know more about AI. Protect more of what matters.",
+    "Learn the possibilities of AI and the habits that keep people safe.",
+    "Technology changes daily; a few minutes of learning can keep you a step ahead.",
+    "Be curious about what AI can do—and thoughtful about how it should be used.",
+    "Your next great idea starts with staying informed and asking why.",
+    "Learn the digital basics. Make confident choices in a changing world.",
+    "Security starts with awareness; progress starts with curiosity.",
+    "Keep up with AI and cybersecurity so you can be part of what comes next.",
+    "Small daily learning makes big technology feel easier to understand.",
+    "Stay curious, share what you learn, and help others feel safer online.",
+    "Make today the day you understand one more piece of the AI puzzle.",
+    "Learn how new technology works before it changes the way you work.",
+    "Be ready for change: understand AI, notice risks, and keep asking questions.",
+    "Better informed people build a safer, more human digital future.",
+    "Explore what AI can unlock, and learn how to use it responsibly.",
+    "Confidence grows when you keep learning about the tools around you.",
+    "Don’t just watch technology change—learn enough to help guide it.",
+    "One new insight today can make you safer and more capable tomorrow."
+]
+
+
+def daily_statement(day: dt.date) -> str:
+    """Pick a short motivational line that changes with the London calendar day."""
+    return DAILY_STATEMENTS[day.toordinal() % len(DAILY_STATEMENTS)]
 
 
 def plain_text(value: str) -> str:
@@ -258,7 +297,7 @@ def update_videos(today: dt.date) -> None:
 
 
 def main() -> None:
-    today = dt.datetime.now(UTC).date()
+    today = dt.datetime.now(ZoneInfo("Europe/London")).date()
     update_videos(today)
     previous = json.loads(DATA_FILE.read_text(encoding="utf-8")) if DATA_FILE.exists() else {}
     fetched: list[dict] = []
@@ -303,6 +342,7 @@ def main() -> None:
         current[0]["featured"] = True
     data = {
         "date": today.isoformat(),
+        "dailyStatement": daily_statement(today),
         "updatedAt": dt.datetime.now(UTC).replace(microsecond=0).isoformat(),
         "stories": current,
         "archive": {day: sorted(items.values(), key=lambda item: item.get("publishedAt", ""), reverse=True)[:80]
