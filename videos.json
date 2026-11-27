@@ -1,6 +1,18 @@
 {
-  "updatedAt": "2026-11-26T16:29:36+00:00",
+  "updatedAt": "2026-11-27T16:15:24+00:00",
   "videos": [
+    {
+      "id": "8zo0sFIhTPI",
+      "category": "ai",
+      "source": "IBM Technology",
+      "channelUrl": "https://www.youtube.com/channel/UCKWaEZ-_VweaEx1j62do_vQ",
+      "title": "Is AI too pessimistic? Plus, Jensen Huang returns to NVIDIA",
+      "description": "Visit Mixture of Experts podcast page to get more AI content → Could a more pessimistic AI model be a better one? This week on Mixture of Experts, host David Zax is joined by Mihai Criveti, Skyler Speakman and Martin Keen. First, Jensen Huang is back at NVIDIA",
+      "summary": "Visit Mixture of Experts podcast page to get more AI content → Could a more pessimistic AI model be a better one? This week on Mixture of Experts, host David Zax is joined by Mihai Criveti, Skyler Speakman and Martin Keen. First, Jensen Huang is back at NVIDIA after less than two weeks away. The panel looks beyond the chips to what makes NVIDIA’s developer ecosystem so valuable. As Mihai puts it, why not give away the recipe if you’re selling the oven? Next, Microsoft introduces licensed weight models, offering a middle ground between open and closed models. Martin explains why making an AI model better at one thing could make it worse at others. Finally, new research out of Oxford suggests AI models have a bleaker outlook on the world than humans do. The findings raise a bigger philosophical question: how much should we want AI to think",
+      "thumbnail": "https://i1.ytimg.com/vi/8zo0sFIhTPI/hqdefault.jpg",
+      "url": "https://www.youtube.com/watch?v=8zo0sFIhTPI",
+      "publishedAt": "2026-11-27T11:00:32+00:00"
+    },
     {
       "id": "_iTbNy5aOR0",
       "category": "ai",
@@ -78,7 +90,7 @@
       "category": "cyber",
       "source": "LiveOverflow",
       "channelUrl": "https://www.youtube.com/channel/UClcE-kVhqyiHCcjYwcpfj9w",
-      "title": "Reversing HEIF files, One Box at a Time // libheif",
+      "title": "Reversing the HEIC iPhone Photo Format // libheif",
       "description": "Let's look at the first bytes of a HEIF file, by looking into how libheif parses it. This video is sponsored by Hextree.io, our cybersecurity learning platform. LEARN ON HEXTREE (ad) Learn hacking on Hextree: Join the Hextree Discord: PREVIOUS VIDEOS How OpenA",
       "summary": "Let's look at the first bytes of a HEIF file, by looking into how libheif parses it. This video is sponsored by Hextree.io, our cybersecurity learning platform. LEARN ON HEXTREE (ad) Learn hacking on Hextree: Join the Hextree Discord: PREVIOUS VIDEOS How OpenAI got hacked with an image: OpenAI Hacked with a 1-Year-Old Bug: How an Image Causes a Heap Buffer Overflow // libheif: RESOURCES Nokia’s HEIF technical overview: MP4 Registration Authority, registered box types: MP4 Registration Authority, file brands: Corkami’s file format diagrams: CHAPTERS 00:00 - Recap 01:05 - Exploring HEIF with AI 02:41 - Setup Test Environment 04:50 - Tracing libheif Parsing Code 08:02 - The file-type box and compatible brands 10:09 - Can You Beat the Machine? (ad) 12:03 - Visualizing the hex dump 12:54 - Outro SUPPORT Per video: Per month: Buy my handwriting",
       "thumbnail": "https://i1.ytimg.com/vi/p0ZlaR-K5Xc/hqdefault.jpg",
@@ -276,18 +288,6 @@
       "thumbnail": "https://i4.ytimg.com/vi/K6ffYKrlPdU/hqdefault.jpg",
       "url": "https://www.youtube.com/watch?v=K6ffYKrlPdU",
       "publishedAt": "2026-11-15T12:00:36+00:00"
-    },
-    {
-      "id": "sZg4uJnU9rU",
-      "category": "ai",
-      "source": "IBM Technology",
-      "channelUrl": "https://www.youtube.com/channel/UCKWaEZ-_VweaEx1j62do_vQ",
-      "title": "Security's New Reality Check",
-      "description": "Everyone's a target. The question isn't if you'll be breached—it's how fast you can contain it. Learn the containment-first security mindset. --------------------------------------------------------------------------------------------------------- Find us on Y",
-      "summary": "Everyone's a target. The question isn't if you'll be breached—it's how fast you can contain it. Learn the containment-first security mindset. --------------------------------------------------------------------------------------------------------- Find us on YouTube: 🔵 IBM Technology: 🔵 IBM: 🔵 IBM Developer:",
-      "thumbnail": "https://i4.ytimg.com/vi/sZg4uJnU9rU/hqdefault.jpg",
-      "url": "https://www.youtube.com/watch?v=sZg4uJnU9rU",
-      "publishedAt": "2026-11-14T05:00:28+00:00"
     }
   ]
 }
